@@ -1,0 +1,25 @@
+version: "3.1"
+
+services:
+  phamarcie:
+    build: .
+    restart: always
+    ports:
+      - 4200:4200
+    volumes:
+      - ./src:/app/src
+
+  mariadb:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mariadb

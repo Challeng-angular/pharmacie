@@ -3,23 +3,30 @@
   position: relative;
 }
 
-
 .card-generic {
   max-width: 400px;
   height: 300px;
   margin-bottom: 8px;
+  min-width: 100%;
+  @media screen and (min-width: 800px){
+    min-width: 50%;
+  }
+  @media screen and (min-width: 1200px){
+    min-width: 25%;
+  }
 }
-.rating-stars mat-icon {
-  font-size: 14px; /* Modifiez cette valeur pour ajuster la taille des étoiles */
-}
-
-.rating-stars .star-icon {
+.rating-stars {
+  mat-icon {
+    font-size: 14px; /* Modifiez cette valeur pour ajuster la taille des étoiles */
+  }
+  .star-icon {
   color: gray; /* Couleur des étoiles inactives */
+    &.active{
+    color: rgb(218, 231, 26); /* Couleur des étoiles actives */
+    }
+  }
 }
 
-.rating-stars .star-icon.active {
-  color: rgb(218, 231, 26); /* Couleur des étoiles actives */
-}
 
 .discount-badge {
   position: absolute;

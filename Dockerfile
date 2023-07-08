@@ -11,6 +11,7 @@ RUN npm install
 RUN npm install -g @angular/cli
 
 EXPOSE 4200
+EXPOSE 9876
 
 CMD [ "ng", "serve", "--disable-host-check", "--host", "0.0.0.0" ]
 

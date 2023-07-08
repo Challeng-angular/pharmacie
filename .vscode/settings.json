@@ -1,0 +1,6 @@
+{
+  "sonarlint.connectedMode.project": {
+    "connectionId": "challeng-angular",
+    "projectKey": "Challeng-angular_pharmacie"
+  }
+}

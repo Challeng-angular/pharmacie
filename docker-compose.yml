@@ -2,20 +2,24 @@ version: "3.1"
 
 services:
   phamarcie:
+    container_name: phamarcie_app
     build: .
     restart: always
     ports:
       - 4200:4200
+      - 9876:9876
     volumes:
       - ./src:/app/src
 
   mariadb:
+    container_name: phamarcie_mariadb
     image: mariadb
     restart: always
     environment:
       MARIADB_ROOT_PASSWORD: root
 
   phpmyadmin:
+    container_name: phamarcie_phpmyadmin
     image: phpmyadmin
     restart: always
     ports:

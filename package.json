@@ -9,7 +9,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:prod": "ng test --browsers=ChromeHeadless --watch=false --code-coverage",
-    "test:docker": "docker exec -it pharmacie_app ng test"
+    "test:docker": "docker exec -it pharmacie_app ng test",
+    "prepare": "npx husky install"
   },
   "private": true,
   "dependencies": {

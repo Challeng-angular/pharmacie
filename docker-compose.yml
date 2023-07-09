@@ -1,8 +1,8 @@
 version: "3.1"
 
 services:
-  phamarcie:
-    container_name: phamarcie_app
+  pharmacie:
+    container_name: pharmacie_app
     build: .
     restart: always
     ports:
@@ -12,18 +12,17 @@ services:
       - ./src:/app/src
 
   mariadb:
-    container_name: phamarcie_mariadb
+    container_name: pharmacie_mariadb
     image: mariadb
     restart: always
     environment:
       MARIADB_ROOT_PASSWORD: root
 
   phpmyadmin:
-    container_name: phamarcie_phpmyadmin
+    container_name: pharmacie_phpmyadmin
     image: phpmyadmin
     restart: always
     ports:
       - 8080:80
     environment:
       - PMA_ARBITRARY=1
-      - PMA_HOST=mariadb

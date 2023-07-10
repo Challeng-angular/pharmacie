@@ -17,6 +17,7 @@ import { ListProductsComponent } from './components/pages/list-products/list-pro
 import { ProductsService } from './services/products.service';
 import { AppRoutingModule } from './app-routing.module';
 import { CardComponent } from './components/card/card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { CardComponent } from './components/card/card.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers:[ProductsService],
   bootstrap: [AppComponent]

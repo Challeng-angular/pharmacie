@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
-import { Product } from './product';
-import { PRODUCTS } from './mock-products-list'
+import { Product } from '../mock-product/product';
+import { PRODUCTS } from '../mock-product/mock-products-list'
 
 @Injectable()
 export class ProductsService{
@@ -12,14 +12,14 @@ export class ProductsService{
 
   getProduct(id: number): Product | null{
     let products = this.getProductsList();
-    
+
     for (let index = 0; index < products.length; index++){
       if (id === products[index].id) {
         return products[index];
       }}
-      
+
     return null;
   }
- 
+
 }
 

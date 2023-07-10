@@ -16,6 +16,7 @@ import { AboutUsComponent } from './components/pages/about-us/about-us.component
 import { ListProductsComponent } from './components/pages/list-products/list-products.component';
 import { ProductsService } from './services/products.service';
 import { AppRoutingModule } from './app-routing.module';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AppRoutingModule } from './app-routing.module';
     NavbarComponent,
     DetailProductComponent,
     AboutUsComponent,
-    ListProductsComponent
+    ListProductsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

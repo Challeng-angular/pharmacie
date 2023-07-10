@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
@@ -15,7 +14,8 @@ import { NavbarComponent } from './components/layouts/navbar/navbar.component';
 import { DetailProductComponent } from './components/pages/detail-product/detail-product.component';
 import { AboutUsComponent } from './components/pages/about-us/about-us.component';
 import { ListProductsComponent } from './components/pages/list-products/list-products.component';
-import { ProductsService } from './product/products.service';
+import { ProductsService } from './services/products.service';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [

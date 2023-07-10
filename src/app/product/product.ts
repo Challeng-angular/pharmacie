@@ -1,27 +1,26 @@
 export class Product {
     id: number;
     name: string;
-    note: number;
+    star: number;
     description: string;
   pictures: Array<string>
-
 
   constructor(
     id: number,
     name: string = "Entrer un nom... ",
-    note: number = 0,
+    star: number = 0,
     description: string = "",
-    pictures: string[] = ["../../assets/images/doliprane1.jpg","../../assets/images/doliprane2.jpg","../../assets/images/doliprane3.jpg"]
-
-
-) {
+    pictures: string[] = ["../../assets/images/dolipranex3/doliprane1.jpg",
+      "../../assets/images/dolipranex3/doliprane2.jpg",
+      "../../assets/images/dolipranex3/doliprane3.jpg"
+    ]
+  )
+  {
     this.id = id;
     this.name = name;
-    this.note = note;
+    this.star = star;
     this.description = description;
     this.pictures = pictures;
-
-
 }
 
 }

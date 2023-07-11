@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MaterialModule } from './material-module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/pages/home/home.component';
@@ -34,14 +35,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     DetailProductComponent,
     AboutUsComponent,
     ListProductsComponent,
-    CardComponent
+    CardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule,
   ],
-  providers:[ProductsService],
-  bootstrap: [AppComponent]
+  providers: [ProductsService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

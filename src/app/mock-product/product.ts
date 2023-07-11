@@ -1,29 +1,41 @@
 export class Product {
     id: number;
     name: string;
-    star: number;
+    starsArray: Array<number>;
     description: string;
-  pictures: Array<string>;
-  promotion: boolean;
+    imagesUrl: Array<string>;
+    hasDiscount: boolean;
+    discountPercentage: number;
+    price: number;
+    rating: number;
+    discountPrice: number;
 
   constructor(
     id: number,
     name: string = "Entrer un nom... ",
-    star: number = 0,
-    description: string = "",
-    pictures: string[] = ["../../assets/images/dolipranex3/doliprane1.jpg",
+    starsArray: number[] = [1, 2, 3,4 , 5],
+    description: string = "blabla",
+    imagesUrl: string[] = ["../../assets/images/dolipranex3/doliprane1.jpg",
       "../../assets/images/dolipranex3/doliprane2.jpg",
       "../../assets/images/dolipranex3/doliprane3.jpg"
     ],
-    promotion: false
+    hasDiscount: false,
+    discountPercentage: number,
+    price: number,
+    rating: number,
+    discountPrice: number,
   )
   {
     this.id = id;
     this.name = name;
-    this.star = star;
+    this.starsArray = starsArray;
     this.description = description;
-    this.pictures = pictures;
-    this.promotion = promotion
+    this.imagesUrl = imagesUrl;
+    this.hasDiscount = hasDiscount;
+    this.discountPercentage = discountPercentage;
+    this.price = price;
+    this.rating = rating;
+    this.discountPrice = discountPrice;
 }
 
 }

@@ -3,7 +3,8 @@ export class Product {
     name: string;
     star: number;
     description: string;
-  pictures: Array<string>
+  pictures: Array<string>;
+  promotion: boolean;
 
   constructor(
     id: number,
@@ -13,7 +14,8 @@ export class Product {
     pictures: string[] = ["../../assets/images/dolipranex3/doliprane1.jpg",
       "../../assets/images/dolipranex3/doliprane2.jpg",
       "../../assets/images/dolipranex3/doliprane3.jpg"
-    ]
+    ],
+    promotion: false
   )
   {
     this.id = id;
@@ -21,6 +23,7 @@ export class Product {
     this.star = star;
     this.description = description;
     this.pictures = pictures;
+    this.promotion = promotion
 }
 
 }

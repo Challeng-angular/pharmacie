@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {MatCardModule} from '@angular/material/card';
-import {MatIconModule} from '@angular/material/icon';
+
 
 export interface Product {
   name: string;
@@ -17,17 +16,16 @@ export interface Product {
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
-  standalone: true,
-  imports: [MatCardModule, MatIconModule],
- 
+  
+
 
 })
 export class CardComponent implements OnInit {
-  
-  
-  
-  
-  product: Product = { 
+
+
+
+
+  product: Product = {
     name: 'Shiba Inu',
     hasDiscount: true,
     discountPercentage: 30,

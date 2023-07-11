@@ -33,7 +33,8 @@ import { AppRoutingModule } from './app-routing.module';
     DetailProductComponent,
     AboutUsComponent,
     ListProductsComponent,
-   
+    MatCartModule
+
   ],
   imports: [
     BrowserModule,

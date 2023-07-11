@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MaterialModule } from './material-module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/pages/home/home.component';
@@ -17,6 +18,7 @@ import { ListProductsComponent } from './components/pages/list-products/list-pro
 import { ProductsService } from './services/products.service';
 import { AppRoutingModule } from './app-routing.module';
 import { CardComponent } from './components/card/card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -33,13 +35,15 @@ import { CardComponent } from './components/card/card.component';
     DetailProductComponent,
     AboutUsComponent,
     ListProductsComponent,
-    CardComponent
+    CardComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
   ],
-  providers:[ProductsService],
-  bootstrap: [AppComponent]
+  providers: [ProductsService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

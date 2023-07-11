@@ -1,1 +1,23 @@
-<p>card works!</p>
+<mat-card class="card-generic">
+    <mat-card-header appCard>
+      <mat-card-title-group>
+        <mat-card-title>{{ product.name }}</mat-card-title>
+        <mat-card-subtitle>Small</mat-card-subtitle>
+        <img mat-card-sm-image [src]="product.imageUrl" alt="image.produit">
+      </mat-card-title-group>
+    </mat-card-header>
+    <div class="rating-stars">
+      <ng-container *ngFor="let star of product.starsArray">
+        <mat-icon class="star-icon" [ngClass]="{'active': star <= product.rating}">grade</mat-icon>
+      </ng-container>
+    </div>
+    <mat-card-content>
+      <div class="price" [class.discounted]="product.hasDiscount">
+        <span *ngIf="product.hasDiscount" class="discount-badge">-{{ product.discountPercentage }}%</span>
+        <del *ngIf="product.hasDiscount" class="original-price">{{ product.price | currency }}</del>
+        <ins>{{ discountedPrice | currency }}</ins>
+      </div>
+      <p>blablabla</p>
+    </mat-card-content>
+  </mat-card>
+  

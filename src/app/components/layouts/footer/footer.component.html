@@ -2,6 +2,7 @@
   <div class="footer-top">
     <ul class="footer-brand">
       <img src="./assets/images/logo-lg.svg" alt="logo pharmacie dupont" />
+      <p class="footer-brand-name">PHARMACIE DUPONT</p>
     </ul>
     <ul class="footer-location">
       <li class="footer-subtitle">PHARMACIE DUPONT</li>
@@ -10,8 +11,23 @@
     </ul>
     <ul class="footer-contact">
       <li class="footer-subtitle">CONTACT</li>
-      <li>Tel : 04 50 50 50 50</li>
-      <li>Mail : contact@dupont.fr</li>
+      <li>
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Exemple d'icône d'accueil"
+          fontIcon="phone"
+        >
+        </mat-icon>
+        <span> 04 50 50 50 50 </span>
+      </li>
+      <li>
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Exemple d'icône d'accueil"
+          fontIcon="email"
+        ></mat-icon>
+        <span> contact@dupont.fr </span>
+      </li>
     </ul>
     <ul class="footer-language">
       <p class="footer-subtitle">LANGUES</p>
@@ -25,15 +41,39 @@
   <div class="footer-mid">
     <div class="footer-subtitle">NOUS REJOINDRE</div>
     <div class="social-links">
-      <img src="./assets/images/twitter-logo.svg" alt="twitter logo" />
-      <img src="./assets/images/facebook-logo.svg" alt="facebook logo" />
-      <img src="./assets/images/whatsapp-logo.svg" alt="whatsapp logo" />
+      <a href="https://www.twitter.com" target="_blank">
+        <img
+          src="./assets/images/twitter-logo.svg"
+          class="logo-social-link"
+          alt="twitter logo"
+        />
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img
+          src="./assets/images/facebook-logo.svg"
+          class="logo-social-link"
+          alt="facebook logo"
+        />
+      </a>
+      <a href="https://www.whatsapp.com" target="_blank">
+        <img
+          src="./assets/images/whatsapp-logo.svg"
+          class="logo-social-link"
+          alt="whatsapp logo"
+        />
+      </a>
     </div>
   </div>
   <div class="footer-bottom">
     <p class="footer-bottom__cgv">
-      ©Pharmacie Dupont - 2023 - Condition général de vente - Condition général
-      d'utilisation
+      ©Pharmacie Dupont - 2023 -
+      <a [routerLink]="['/conditions-generales-vente']"
+        >Conditions générales de vente</a
+      >
+      -
+      <a [routerLink]="['/conditions-generales-utilisation']"
+        >Conditions générales d'utilisation</a
+      >
     </p>
   </div>
 </footer>

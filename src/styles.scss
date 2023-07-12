@@ -7,6 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
 
 html,
 body {
@@ -17,3 +21,17 @@ body {
   font-family: inter, Roboto, "Helvetica Neue", sans-serif;
   background: #fafcf4;
 }
+ul {
+  list-style: none;
+}
+app-root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+// app-root {
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+// }

@@ -19,6 +19,8 @@ import { ProductsService } from './services/products.service';
 import { AppRoutingModule } from './app-routing.module';
 import { CardComponent } from './components/card/card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CguComponent } from './components/pages/cgu/cgu.component';
+import { CgvComponent } from './components/pages/cgv/cgv.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutUsComponent,
     ListProductsComponent,
     CardComponent,
+    CguComponent,
+    CgvComponent,
   ],
   imports: [
     BrowserModule,

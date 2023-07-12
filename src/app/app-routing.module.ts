@@ -6,6 +6,8 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { ListProductsComponent } from './components/pages/list-products/list-products.component';
 import { PromotionsComponent } from './components/pages/promotions/promotions.component';
 import { DetailProductComponent } from './components/pages/detail-product/detail-product.component';
+import { CgvComponent } from './components/pages/cgv/cgv.component';
+import { CguComponent } from './components/pages/cgu/cgu.component';
 
 const routes: Routes = [
   { path: 'accueil', component: HomeComponent },
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'promotions', component: PromotionsComponent },
   { path: 'apropos', component: AboutUsComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'conditions-generales-vente', component: CgvComponent },
+  { path: 'conditions-generales-utilisation', component: CguComponent },
   { path: '', redirectTo: 'accueil', pathMatch: 'prefix' },
 ];
 

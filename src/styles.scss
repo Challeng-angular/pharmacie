@@ -7,7 +7,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html,
 body {
   min-height: 100%;
@@ -16,4 +15,7 @@ body {
   margin: 0;
   font-family: inter, Roboto, "Helvetica Neue", sans-serif;
   background: #fafcf4;
+}
+ul {
+  list-style: none;
 }

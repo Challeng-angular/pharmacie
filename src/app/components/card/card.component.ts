@@ -1,44 +1,30 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from 'src/app/mock-product/product';
+import { ProductsService } from 'src/app/services/products.service';
 
-
-export interface Product {
-  name: string;
-  hasDiscount: boolean;
-  discountPercentage: number;
-  price: number;
-  imageUrl: string;
-  starsArray: number[];
-  rating: number;
-  discountedPrice?: number;
-}
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
   
-
-
 })
+
 export class CardComponent implements OnInit {
+  productsList: Product[];
+  product: Product;
+  discountedPrice: number;
+  isDiscount: boolean  = false;
 
 
+  constructor(
+    private productsService: ProductsService
+  ) {}
 
-
-  product: Product = {
-    name: 'Shiba Inu',
-    hasDiscount: true,
-    discountPercentage: 30,
-    price: 1999,
-    imageUrl: 'https://material.angular.io/assets/img/examples/shiba2.jpg',
-    starsArray: [1, 2, 3, 4, 5],
-    rating: 3
-  };
-
-  discountedPrice: number = 0;
 
   ngOnInit() {
-    if (this.product.hasDiscount) {
+    this.productsList = this.productsService.getProductsList();
+    if (this.product.isDiscount) {
       const discountPercentage = this.product.discountPercentage;
       this.discountedPrice = this.product.price - (this.product.price * discountPercentage / 100);
     } else {

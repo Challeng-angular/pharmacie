@@ -1,1 +1,33 @@
-<p>navbar works!</p>
+<mat-toolbar color="primary" class="mat-elevation-z8 navbar">
+  <div class="brand" (click)="redirectToHomepage()">
+    <img src="./assets/images/logo.svg" alt="logo pharmacie Durant" />
+    <span>Pharmacie Durant</span>
+  </div>
+  <div class="ms-auto navbar-nav">
+    <button
+      *ngFor="let menuItem of menuItems"
+      [routerLink]="menuItem.link"
+      mat-button
+      class="nav-link"
+      routerLinkActive="active"
+    >
+      {{ menuItem.text }}
+    </button>
+  </div>
+  <div class="ms-auto burger-btn-wrapper" *ngIf="isSmallScreen">
+    <button mat-button [matMenuTriggerFor]="menuRef" class="burger-btn">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menuRef="matMenu" class="navbar-nav-mobile">
+      <button
+        *ngFor="let menuItem of menuItems"
+        [routerLink]="menuItem.link"
+        mat-menu-item
+        class="nav-link"
+      >
+        <mat-icon> {{ menuItem.icon }}</mat-icon
+        >{{ menuItem.text }}
+      </button>
+    </mat-menu>
+  </div>
+</mat-toolbar>

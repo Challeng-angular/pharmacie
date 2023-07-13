@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: wallpoet;
+  src: url('./assets/Wallpoet-Regular.ttf');
+}
+// Reset CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+body {
+  position: relative;
+  margin: 0;
+  font-family: inter, Roboto, wallpoet, sans-serif;
+  background: #fafcf4;
+}
+#title{
+  margin-top: 5%;
+  position: absolute;
+  text-align: center;
+  margin-bottom: 50%;
+  margin-left: 50%;
+}

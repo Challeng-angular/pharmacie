@@ -4,47 +4,75 @@ import {Product} from "./product"
 export const PRODUCTS: Product[] = [
   {id: 1,
     name: "Doliprane",
-    note: 2,
-    description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol.    Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
-    picture1: "../../assets/images/dolipranex3/doliprane1.jpg",
-    picture2: "../../assets/images/dolipranex3/doliprane2.jpg",
-    picture3: "../../assets/images/dolipranex3/doliprane3.jpg"
+    description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
+    imagesUrl: ["../../assets/images/dolipranex3/doliprane1.jpg",
+      "../../assets/images/dolipranex3/doliprane2.jpg",
+      "../../assets/images/dolipranex3/doliprane3.jpg"],
+    isDiscount: true,
+    discountPercentage: 10,
+    price: 12,
+    stars: [1,2,3,4,5],
+    rating: 3
+    
   },
+
   {id: 2,
     name: "Nurofen",
-    note: 4,
     description: "blabla",
-    picture1: "../../assets/images/nurofenx3/nurofen1.jpg",
-    picture2: "../../assets/images/nurofenx3/nurofen1.jpg",
-    picture3: "../../assets/images/nurofenx3/nurofen1.jpg"
+    imagesUrl: ["../../assets/images/nurofenx3/nurofen1.jpg",
+      "../../assets/images/nurofenx3/nurofen1.jpg",
+      "../../assets/images/nurofenx3/nurofen1.jpg"],
+      isDiscount: false,
+      discountPercentage: 10,
+      price: 12,
+      stars: [1,2,3,4,5],
+      rating: 5
+     
   },
+
   {
     id: 3,
     name: "Ibuprofen",
-    note: 2,
     description: "blabla",
-    picture1: "../../assets/images/dolipranex3/doliprane1.jpg",
-    picture2: "../../assets/images/dolipranex3/doliprane1.jpg",
-    picture3: "../../assets/images/dolipranex3/doliprane1.jpg"
-
+    imagesUrl: ["../../assets/images/dolipranex3/doliprane1.jpg",
+      "../../assets/images/dolipranex3/doliprane1.jpg",
+      "../../assets/images/dolipranex3/doliprane1.jpg"],
+      isDiscount: false,
+      discountPercentage: 10,
+      price: 12,
+      stars: [1,2,3,4,5],
+      rating: 4
   },
+
+
   {
     id: 3,
     name: "Spedifen",
-    note: 2,
     description: "blabla",
-    picture1: "../../assets/images/dolipranex3/doliprane1.jpg",
-    picture2: "../../assets/images/dolipranex3/doliprane1.jpg",
-    picture3: "../../assets/images/dolipranex3/doliprane1.jpg"
+    imagesUrl: ["../../assets/images/dolipranex3/doliprane1.jpg",
+      "../../assets/images/dolipranex3/doliprane1.jpg",
+      "../../assets/images/dolipranex3/doliprane1.jpg"],
+      isDiscount: true,
+      discountPercentage: 20,
+      price: 12,
+      stars: [1,2,3,4,5],
+      rating: 1
+      
   },
+
 
   {
     id: 4,
     name: "Dafalgan",
-    note: 2,
     description: "blabla",
-    picture1: "../../assets/images/dolipranex3/doliprane1.jpg",
-    picture2: "../../assets/images/dolipranex3/doliprane1.jpg",
-    picture3: "../../assets/images/dolipranex3/doliprane1.jpg"
+    imagesUrl: ["../../assets/images/dolipranex3/doliprane1.jpg",
+      "../../assets/images/dolipranex3/doliprane1.jpg",
+      "../../assets/images/dolipranex3/doliprane1.jpg"],
+      isDiscount: false,
+      discountPercentage: 10,
+      price: 12,
+      stars: [1,2,3,4,5],
+      rating: 3
+      
   }
 ]

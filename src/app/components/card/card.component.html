@@ -1,23 +1,31 @@
-<mat-card class="card-generic">
-    <mat-card-header appCard>
+<div id="container-card" *ngFor="let product of productsList" >
+<mat-card id="card-generic">
+    <mat-card-header appCard id="">
       <mat-card-title-group>
-        <mat-card-title>{{ product.name }}</mat-card-title>
-        <mat-card-subtitle>Small</mat-card-subtitle>
-        <img mat-card-sm-image [src]="product.imageUrl" alt="image.produit">
+        <mat-card-title id="product-name">{{ product.name }}</mat-card-title>
+        <mat-card-subtitle></mat-card-subtitle>
+        <img id="img-card" mat-card-sm-image [src]="product.imagesUrl[1]" alt="image.product">
       </mat-card-title-group>
     </mat-card-header>
-    <div class="rating-stars">
-      <ng-container *ngFor="let star of product.starsArray">
-        <mat-icon class="star-icon" [ngClass]="{'active': star <= product.rating}">grade</mat-icon>
-      </ng-container>
-    </div>
-    <mat-card-content>
-      <div class="price" [class.discounted]="product.hasDiscount">
-        <span *ngIf="product.hasDiscount" class="discount-badge">-{{ product.discountPercentage }}%</span>
-        <del *ngIf="product.hasDiscount" class="original-price">{{ product.price | currency }}</del>
-        <ins>{{ discountedPrice | currency }}</ins>
+    <mat-card-content id="card-content">
+      <div class="rating-stars">
+        <ng-container class="rating-stars" *ngFor="let star of [1, 2, 3, 4, 5]">
+          <mat-icon id="star-icon" [ngClass]="{'active': star <= product.rating}" [style.color]="star <= product.rating ? 'yellow' : ''">star</mat-icon>
+        </ng-container>
       </div>
-      <p>blablabla</p>
+      <div id="price" [class.discounted]="product.isDiscount">
+       
+        <!--on affiche la promotion-->
+        <span id="discount-badge" *ngIf="product.isDiscount" >-{{ product.discountPercentage }}%</span>
+        <p *ngIf="product.isDiscount" class="line">Prix initial: <del>{{ product.price }}€</del></p>
+  <p *ngIf="product.isDiscount">Prix réduit: {{ discountedPrice }}€</p>
+  <p *ngIf="!product.isDiscount">Prix initial: {{ product.price }}€</p>
+        <!--sinon on affiche le prix initial-->
+       
+      
+      
+        
+      </div> 
     </mat-card-content>
   </mat-card>
-  
+</div>

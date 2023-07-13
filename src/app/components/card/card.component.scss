@@ -9,18 +9,18 @@
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 10%;
-  margin-left: 5%;
+  margin-left: 2%;
   font-family:  inter, sans-serif;;
 }
 
 
  #card-generic {
-    height: 380px;
-    width: 280px;
-    margin-left: 10%;
+    height: 450px;
+    width: 330px;
+    margin-left: 11%;
     margin-bottom: 8px;
     min-width: 100%;
     box-shadow: 5px 5px 10px rgba(102, 112, 112, 0.493);
@@ -29,7 +29,7 @@
     }
     @media screen and (min-width: 1200px){
       min-width: 25%;
-     
+
     }
   }
 
@@ -49,7 +49,7 @@
 .rating-stars {
   margin-top: 5%;
     mat-icon {
-      
+
       font-size: 16px;
       margin-bottom: 5%;
     }
@@ -89,7 +89,7 @@
 
 #card-content{
 background-color: rgba(102, 112, 112, 0.071);
-height: 100%;
+min-height:50%;
 max-height: 200px;
   overflow: auto;
 }
@@ -105,12 +105,11 @@ text-align: center;
 #card-description{
   margin: 20px;
 }
-#button-see{
-  background-color: #48B986;
-}
+
 .line{
   text-decoration: line-through;
 }
 #price{
   margin-top: 10px;
 }
+

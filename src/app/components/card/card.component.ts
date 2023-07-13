@@ -7,7 +7,7 @@ import { ProductsService } from 'src/app/services/products.service';
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
-  
+
 })
 
 export class CardComponent implements OnInit {
@@ -24,6 +24,7 @@ export class CardComponent implements OnInit {
 
   ngOnInit() {
     this.productsList = this.productsService.getProductsList();
+    
     if (this.product.isDiscount) {
       const discountPercentage = this.product.discountPercentage;
       this.discountedPrice = this.product.price - (this.product.price * discountPercentage / 100);
@@ -31,4 +32,6 @@ export class CardComponent implements OnInit {
       this.discountedPrice = this.product.price;
     }
   }
+
+
 }

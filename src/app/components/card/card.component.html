@@ -14,18 +14,13 @@
         </ng-container>
       </div>
       <div id="price" [class.discounted]="product.isDiscount">
-       
-        <!--on affiche la promotion-->
         <span id="discount-badge" *ngIf="product.isDiscount" >-{{ product.discountPercentage }}%</span>
         <p *ngIf="product.isDiscount" class="line">Prix initial: <del>{{ product.price }}€</del></p>
   <p *ngIf="product.isDiscount">Prix réduit: {{ discountedPrice }}€</p>
-  <p *ngIf="!product.isDiscount">Prix initial: {{ product.price }}€</p>
-        <!--sinon on affiche le prix initial-->
-       
+  <p *ngIf="!product.isDiscount">Prix: {{ product.price }}€</p>
+
+      </div>
       
-      
-        
-      </div> 
     </mat-card-content>
   </mat-card>
 </div>

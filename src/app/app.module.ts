@@ -21,6 +21,7 @@ import { CardComponent } from './components/card/card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CguComponent } from './components/pages/cgu/cgu.component';
 import { CgvComponent } from './components/pages/cgv/cgv.component';
+import { BlocTitleComponent } from './components/bloc-title/bloc-title.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { CgvComponent } from './components/pages/cgv/cgv.component';
     CardComponent,
     CguComponent,
     CgvComponent,
+    BlocTitleComponent,
   ],
   imports: [
     BrowserModule,

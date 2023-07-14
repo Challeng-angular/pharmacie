@@ -1,0 +1,76 @@
+// @import "~@angular/material/theming";
+@import "../node_modules/@angular/material/theming";
+
+$my-blue: (
+  50: rgb(50, 189, 244),
+  100: #34acdb,
+  200: #2683a8,
+  300: #1a5e79,
+  400: #1a5f7a,
+  500: #124559,
+  600: #0d3646,
+  700: #082c3b,
+  800: #062836,
+  900: #052734,
+  A100: #04202c,
+  A200: #021c26,
+  A400: #021821,
+  A700: #01131a,
+  contrast: (
+    50: white,
+    100: white,
+    200: white,
+    300: white,
+    400: white,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: white,
+    A200: white,
+    A400: white,
+    A700: white,
+  ),
+);
+$my-green: (
+  50: #8cf2c4,
+  100: #84f0bf,
+  200: #77eab7,
+  300: #62e9ac,
+  400: #54d098,
+  500: #48b986,
+  600: #41a779,
+  700: #378d66,
+  800: #296d4f,
+  900: #1c5b3f,
+  A100: #12462f,
+  A200: #0d422a,
+  A400: #0a3823,
+  A700: #022716,
+  contrast: (
+    50: white,
+    100: white,
+    200: white,
+    300: white,
+    400: white,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: white,
+    A200: white,
+    A400: white,
+    A700: white,
+  ),
+);
+
+// Définition des couleurs personnalisées
+$primary: mat-palette($my-green, 700);
+$accent: mat-palette($my-blue, 500);
+$warn: mat-palette($mat-red);
+$theme: mat-light-theme($primary, $accent, $warn);
+
+// Utilisation du thème personnalisé
+@include angular-material-theme($theme);

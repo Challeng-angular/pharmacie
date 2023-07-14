@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {  Router } from '@angular/router';
 import { Product } from 'src/app/mock-product/product';
 import { ProductsService } from 'src/app/services/products.service';
 
@@ -13,25 +14,34 @@ import { ProductsService } from 'src/app/services/products.service';
 export class CardComponent implements OnInit {
   productsList: Product[];
   product: Product;
-  discountedPrice: number;
-  isDiscount: boolean  = false;
+  discountedPrices: number[] = [];
+  isDiscount: boolean = false;
+  discountPercentage: number;
 
 
   constructor(
-    private productsService: ProductsService
-  ) {}
+    private router: Router,
+    private productsService: ProductsService,
+  ) { }
 
 
-  ngOnInit() {
-    this.productsList = this.productsService.getProductsList();
-    
-    if (this.product.isDiscount) {
-      const discountPercentage = this.product.discountPercentage;
-      this.discountedPrice = this.product.price - (this.product.price * discountPercentage / 100);
-    } else {
-      this.discountedPrice = this.product.price;
-    }
+  ngOnInit() :void{
+    this.productsList = this.productsService.getProductsList(); 
+    this.productsList.forEach(product => {
+      if (product.isDiscount && product.discountPercentage) {
+        const discount = (product.discountPercentage / 100) * product.price;
+        const discountedPrice = product.price - discount;
+        this.discountedPrices.push(discountedPrice);
+      } else {
+        this.discountedPrices.push(product.price);
+      }
+    });
+
   }
 
+  goToProduct(product: Product) {
+    this.router.navigate(["/produit", product.id ])
+  }
 
+ 
 }

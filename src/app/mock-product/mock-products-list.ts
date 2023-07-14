@@ -5,12 +5,12 @@ export const PRODUCTS: Product[] = [
   {id: 1,
     name: "Doliprane",
     description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
-    imagesUrl: ["../../assets/images/dolipranex3/doliprane1.jpg",
+    imagesUrl: ["../../assets/images/Rectangle104.png",
       "../../assets/images/dolipranex3/doliprane2.jpg",
       "../../assets/images/dolipranex3/doliprane3.jpg"],
     isDiscount: true,
     discountPercentage: 10,
-    price: 12,
+    price: 12.00,
     stars: [1,2,3,4,5],
     rating: 3
     
@@ -18,13 +18,13 @@ export const PRODUCTS: Product[] = [
 
   {id: 2,
     name: "Nurofen",
-    description: "blabla",
-    imagesUrl: ["../../assets/images/nurofenx3/nurofen1.jpg",
+    description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
+    imagesUrl: ["../../assets/images/Rectangle104.png",
       "../../assets/images/nurofenx3/nurofen1.jpg",
       "../../assets/images/nurofenx3/nurofen1.jpg"],
       isDiscount: false,
       discountPercentage: 10,
-      price: 12,
+      price: 12.00,
       stars: [1,2,3,4,5],
       rating: 5
      
@@ -33,28 +33,28 @@ export const PRODUCTS: Product[] = [
   {
     id: 3,
     name: "Ibuprofen",
-    description: "blabla",
-    imagesUrl: ["../../assets/images/dolipranex3/doliprane1.jpg",
+    description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
+    imagesUrl: ["../../assets/images/Rectangle104.png",
       "../../assets/images/dolipranex3/doliprane1.jpg",
       "../../assets/images/dolipranex3/doliprane1.jpg"],
       isDiscount: false,
       discountPercentage: 10,
-      price: 12,
+      price: 12.00,
       stars: [1,2,3,4,5],
       rating: 4
   },
 
 
   {
-    id: 3,
+    id: 4,
     name: "Spedifen",
-    description: "blabla",
-    imagesUrl: ["../../assets/images/dolipranex3/doliprane1.jpg",
+    description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
+    imagesUrl: ["../../assets/images/Rectangle104.png",
       "../../assets/images/dolipranex3/doliprane1.jpg",
       "../../assets/images/dolipranex3/doliprane1.jpg"],
       isDiscount: true,
       discountPercentage: 20,
-      price: 12,
+      price: 12.00,
       stars: [1,2,3,4,5],
       rating: 1
       
@@ -62,17 +62,59 @@ export const PRODUCTS: Product[] = [
 
 
   {
-    id: 4,
+    id: 5,
     name: "Dafalgan",
-    description: "blabla",
-    imagesUrl: ["../../assets/images/dolipranex3/doliprane1.jpg",
+    description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
+    imagesUrl: ["../../assets/images/Rectangle104.png",
       "../../assets/images/dolipranex3/doliprane1.jpg",
       "../../assets/images/dolipranex3/doliprane1.jpg"],
       isDiscount: false,
       discountPercentage: 10,
-      price: 12,
+      price: 12.50,
       stars: [1,2,3,4,5],
       rating: 3
       
-  }
+  },
+{
+  id: 6,
+  name: "Spedifen",
+  description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
+  imagesUrl: ["../../assets/images/Rectangle104.png",
+    "../../assets/images/dolipranex3/doliprane1.jpg",
+    "../../assets/images/dolipranex3/doliprane1.jpg"],
+    isDiscount: true,
+    discountPercentage: 20,
+    price: 12.00,
+    stars: [1,2,3,4,5],
+    rating: 1
+    
+},
+{
+id: 7,
+name: "Spedifen",
+description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
+imagesUrl: ["../../assets/images/Rectangle104.png",
+  "../../assets/images/dolipranex3/doliprane1.jpg",
+  "../../assets/images/dolipranex3/doliprane1.jpg"],
+  isDiscount: true,
+  discountPercentage: 20,
+  price: 12.00,
+  stars: [1,2,3,4,5],
+  rating: 1
+  
+  },
+  {
+  id: 8,
+  name: "Spedifen",
+  description: "Ce médicament est un antalgique et un antipyrétique qui contient du paracétamol. Il est utilisé pour faire baisser la fièvre et dans le traitement des affections douloureuses. ",
+  imagesUrl: ["../../assets/images/Rectangle104.png",
+    "../../assets/images/dolipranex3/doliprane1.jpg",
+    "../../assets/images/dolipranex3/doliprane1.jpg"],
+    isDiscount: true,
+    discountPercentage: 20,
+    price: 12.00,
+    stars: [1,2,3,4,5],
+    rating: 1
+    
+},
 ]

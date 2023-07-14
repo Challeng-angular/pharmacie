@@ -20,6 +20,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './components/card/card.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,7 @@ import { CardComponent } from './components/card/card.component';
     DetailProductComponent,
     AboutUsComponent,
     ListProductsComponent,
-    CardComponent
+    CardComponent,
   ],
 
   imports: [

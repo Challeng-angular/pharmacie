@@ -1,0 +1,52 @@
+header {
+  width: 100%;
+  background-color: #f4fcf1;
+  min-height: 12rem;
+  padding-bottom: 2rem;
+  .header-top {
+    margin-block: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__brand {
+      color: #48b986;
+      font-family: Wallpoet, Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+  .header-bottom {
+    border-top: 2px solid #e4eed1;
+    border-bottom: 2px solid #e4eed1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header-bottom-wrapper {
+      display: none;
+      @media screen and (min-width: 960px) {
+        max-width: 1400px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding-block: 1rem;
+      }
+      button {
+        margin-inline: 1rem;
+        font-family: inter, Roboto, "Helvetica Neue", sans-serif;
+        font-size: 1rem;
+        color: #4a5355;
+      }
+    }
+    .select-btn-cat-wrapper {
+      height: 100%;
+      padding-top: 1rem;
+      .select-btn-cat {
+        width: 20rem;
+      }
+    }
+  }
+}

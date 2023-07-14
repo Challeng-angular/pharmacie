@@ -23,6 +23,8 @@ import { CguComponent } from './components/pages/cgu/cgu.component';
 import { CgvComponent } from './components/pages/cgv/cgv.component';
 import { BlocTitleComponent } from './components/bloc-title/bloc-title.component';
 import { BlocPresentationComponent } from './components/bloc-presentation/bloc-presentation.component';
+import { ServicesComponent } from './components/pages/services/services.component';
+import { OverviewOrderComponent } from './components/pages/overview-order/overview-order.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { BlocPresentationComponent } from './components/bloc-presentation/bloc-p
     CgvComponent,
     BlocTitleComponent,
     BlocPresentationComponent,
+    ServicesComponent,
+    OverviewOrderComponent,
   ],
   imports: [
     BrowserModule,

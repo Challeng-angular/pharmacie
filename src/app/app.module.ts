@@ -22,6 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CguComponent } from './components/pages/cgu/cgu.component';
 import { CgvComponent } from './components/pages/cgv/cgv.component';
 import { BlocTitleComponent } from './components/bloc-title/bloc-title.component';
+import { BlocPresentationComponent } from './components/bloc-presentation/bloc-presentation.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { BlocTitleComponent } from './components/bloc-title/bloc-title.component
     CguComponent,
     CgvComponent,
     BlocTitleComponent,
+    BlocPresentationComponent,
   ],
   imports: [
     BrowserModule,

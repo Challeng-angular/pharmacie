@@ -1,0 +1,110 @@
+.presentation-wrapper {
+  position: relative;
+  margin-block: 5.5rem;
+  width: 100%;
+  .presentation-top {
+    position: relative;
+    img {
+      display: none;
+    }
+    &::after {
+      content: none;
+    }
+    @media screen and (min-width: 512px) {
+      img {
+        display: block;
+        width: 100%;
+        max-width: 1980px;
+        margin: auto;
+        object-fit: cover;
+        height: auto;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: clamp(12rem, 4vw, 24rem);
+        background: linear-gradient(
+          180deg,
+          rgba(72, 185, 134, 0) 0%,
+          #48b986 95.61%,
+          #49b986 100%
+        );
+      }
+    }
+  }
+  .presentation-title {
+    background-color: #49b986;
+    position: relative;
+    h3 {
+      text-align: center;
+      color: #fff;
+      text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+      font-size: clamp(1.4rem, 4vw, 2.375rem);
+      font-weight: 900;
+      line-height: 125%;
+      padding: 2rem 1rem 1rem 1rem;
+      @media screen and (min-width: 768px) {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .presentation-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 9rem;
+    background: linear-gradient(
+      180deg,
+      #48b98678 0%,
+      #48b986 20.61%,
+      #49b986 100%
+    );
+    background-color: #49b986;
+    padding-bottom: 2rem;
+    padding-inline: 1rem;
+    .presentation-bottom__content {
+      max-width: 42ch;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+      font-size: 1.225rem;
+      font-size: clamp(1rem, 4vw, 1.225rem);
+      font-weight: 500;
+      line-height: 134.5%;
+      padding-right: 0;
+      padding-bottom: 1rem;
+    }
+    .btn-wapp {
+      display: flex;
+      align-items: center;
+      font-family: Inter, sans-serif;
+      height: 3.1rem;
+      text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+      font-weight: 500;
+      font-size: 1rem;
+      @media screen and (min-width: 512px) {
+        font-size: 1.225rem;
+      }
+      .whatsapp-icon-sm {
+        filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+        margin-right: 0.45rem;
+        margin-bottom: -0.28rem;
+        height: 24px;
+        width: auto;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      padding-bottom: 2rem;
+      .presentation-bottom__content {
+        text-align: left;
+        padding-right: 5rem;
+        padding-bottom: 0;
+      }
+    }
+  }
+}

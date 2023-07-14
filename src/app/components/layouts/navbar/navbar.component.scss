@@ -24,13 +24,12 @@
       }
     }
   }
-
   .navbar-nav {
     position: relative;
     .nav-link {
       font-family: inter, Roboto, "Helvetica Neue", sans-serif;
       font-size: 1rem;
-      margin-inline: 0.75rem;
+      margin-inline: 0.5rem;
       display: none;
     }
     .burger-btn-wrapper {
@@ -64,18 +63,3 @@
     }
   }
 }
-.navbar-nav-mobile {
-  display: block;
-  color: red;
-  .mat-mdc-button.mat-mdc-button-base {
-    width: 100%;
-  }
-}
-
-// .burger-btn-wrapper {
-//   position: relative;
-//   .cdk-overlay-container {
-//     position: relative;
-//     top: 10rem;
-//   }
-// }

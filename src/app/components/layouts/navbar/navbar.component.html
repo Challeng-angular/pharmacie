@@ -5,13 +5,16 @@
   </div>
   <div class="ms-auto navbar-nav">
     <button
-      *ngFor="let menuItem of menuItems"
+      *ngFor="let menuItem of menuItems; last as isLast"
       [routerLink]="menuItem.link"
       mat-button
       class="nav-link"
       routerLinkActive="active"
     >
       {{ menuItem.text }}
+      <div *ngIf="isLast">
+        <img src="./assets/images/cart-icon-navbar.svg" alt="icone panier" />
+      </div>
     </button>
   </div>
   <div class="ms-auto burger-btn-wrapper" *ngIf="isSmallScreen">
@@ -20,13 +23,13 @@
     </button>
     <mat-menu #menuRef="matMenu" class="navbar-nav-mobile">
       <button
-        *ngFor="let menuItem of menuItems"
+        *ngFor="let menuItem of menuItems; last as isLast"
         [routerLink]="menuItem.link"
         mat-menu-item
         class="nav-link"
       >
         <mat-icon> {{ menuItem.icon }}</mat-icon
-        >{{ menuItem.text }}
+        >{{ isLast ? "Panier" : menuItem.text }}
       </button>
     </mat-menu>
   </div>

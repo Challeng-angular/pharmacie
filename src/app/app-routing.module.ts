@@ -8,14 +8,18 @@ import { PromotionsComponent } from './components/pages/promotions/promotions.co
 import { DetailProductComponent } from './components/pages/detail-product/detail-product.component';
 import { CgvComponent } from './components/pages/cgv/cgv.component';
 import { CguComponent } from './components/pages/cgu/cgu.component';
+import { ServicesComponent } from './components/pages/services/services.component';
+import { OverviewOrderComponent } from './components/pages/overview-order/overview-order.component';
 
 const routes: Routes = [
   { path: 'accueil', component: HomeComponent },
   { path: 'produits', component: ListProductsComponent },
   { path: 'produit/:id', component: DetailProductComponent },
   { path: 'promotions', component: PromotionsComponent },
+  { path: 'services', component: ServicesComponent },
   { path: 'apropos', component: AboutUsComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'overview-order', component: OverviewOrderComponent },
   { path: 'conditions-generales-vente', component: CgvComponent },
   { path: 'conditions-generales-utilisation', component: CguComponent },
   { path: '', redirectTo: 'accueil', pathMatch: 'prefix' },

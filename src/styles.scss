@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Wallpoet&display=swap&family=Libre+Baskerville:ital@1&display=swap");
 
+// Import custom color theme
+@import "theme.scss";
+
 // Reset CSS
 * {
   margin: 0;
@@ -35,3 +38,11 @@ app-root {
 //   display: flex;
 //   flex-direction: column;
 // }
+
+.cdk-overlay-container {
+  position: absolute;
+  top: 4.2rem;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+}

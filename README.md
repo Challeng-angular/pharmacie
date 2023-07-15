@@ -1,3 +1,13 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Challeng-angular_pharmacie&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+
 # Pharmacy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
@@ -69,3 +79,7 @@ Discover the Pharmacy/Parapharmacy De La Mairie in Montreux. Top quality product
 ## View unit test reports
 
 - Go to this page : [http://localhost:9876](http://localhost:9876) (the test server launched)
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Challeng-angular_pharmacie)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=Challeng-angular_pharmacie)

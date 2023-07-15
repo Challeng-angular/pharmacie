@@ -12,9 +12,11 @@ export class NavbarComponent {
   menuItems: any[] = [
     { text: 'Accueil', link: 'accueil', icon: 'home' },
     { text: 'Produits', link: 'produits', icon: 'view_list' },
-    { text: 'Offres', link: 'promotions', icon: 'discount' },
+    { text: 'Promos', link: 'promotions', icon: 'discount' },
+    { text: 'Services', link: 'services', icon: 'medical_services' },
     { text: 'À propos', link: 'apropos', icon: 'info' },
     { text: 'Contact', link: 'contact', icon: 'mail' },
+    { text: '', link: 'overview-order', icon: 'shopping_cart' },
   ];
   private breakpointSubscription: Subscription;
   public isSmallScreen = false;

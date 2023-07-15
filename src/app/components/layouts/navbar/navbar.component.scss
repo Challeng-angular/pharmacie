@@ -8,7 +8,7 @@
   }
   .brand {
     font-family: Wallpoet, Roboto, "Helvetica Neue", sans-serif;
-    font-size: 1.375rem;
+    font-size: 1.175rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,13 +24,12 @@
       }
     }
   }
-
   .navbar-nav {
     position: relative;
     .nav-link {
       font-family: inter, Roboto, "Helvetica Neue", sans-serif;
       font-size: 1rem;
-      margin-inline: 0.75rem;
+      margin-inline: 0.5rem;
       display: none;
     }
     .burger-btn-wrapper {
@@ -62,12 +61,5 @@
     .burger-btn-wrapper {
       display: none;
     }
-  }
-}
-.navbar-nav-mobile {
-  display: block;
-  color: red;
-  .mat-mdc-button.mat-mdc-button-base {
-    width: 100%;
   }
 }

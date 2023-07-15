@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { FooterComponent } from './footer.component';
+import { MatIconModule } from '@angular/material/icon';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 
 describe('FooterComponent', () => {
   let component: FooterComponent;
@@ -8,7 +9,9 @@ describe('FooterComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [FooterComponent]
+      declarations: [FooterComponent],
+      providers: [{ provide: ActivatedRoute, useValue: {} }],
+      imports: [MatIconModule, RouterLink],
     });
     fixture = TestBed.createComponent(FooterComponent);
     component = fixture.componentInstance;

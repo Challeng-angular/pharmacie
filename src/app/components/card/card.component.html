@@ -1,4 +1,4 @@
-<div id="container-card" *ngFor="let product of productsList ; let i = index">
+<div (click)="goToProduct(product)" id="container-card" *ngFor="let product of productsList ; let i = index" >
 <mat-card id="card-generic">
     <mat-card-header appCard id="">
       <mat-card-title-group>
@@ -23,7 +23,7 @@
   <p *ngIf="!product.isDiscount">{{ product.price  }}&nbsp; €</p>
 
       </div>
-      
+
     </mat-card-content>
   </mat-card>
 </div>

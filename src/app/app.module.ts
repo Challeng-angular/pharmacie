@@ -19,6 +19,7 @@ import { ProductsService } from './services/products.service';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './components/card/card.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { CardComponent } from './components/card/card.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    MatCardModule
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent],

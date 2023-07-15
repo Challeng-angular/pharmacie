@@ -25,6 +25,13 @@ import { AboutUsComponent } from './components/pages/about-us/about-us.component
 import { ListProductsComponent } from './components/pages/list-products/list-products.component';
 import { CardComponent } from './components/card/card.component';
 import { ProductsService } from './product/products.service';
+import { CguComponent } from './components/pages/cgu/cgu.component';
+import { CgvComponent } from './components/pages/cgv/cgv.component';
+import { BlocTitleComponent } from './components/bloc-title/bloc-title.component';
+import { BlocPresentationComponent } from './components/bloc-presentation/bloc-presentation.component';
+import { ServicesComponent } from './components/pages/services/services.component';
+import { OverviewOrderComponent } from './components/pages/overview-order/overview-order.component';
+import { HeaderComponent } from './components/layouts/header/header.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +49,13 @@ import { ProductsService } from './product/products.service';
     AboutUsComponent,
     ListProductsComponent,
     CardComponent,
+    CguComponent,
+    CgvComponent,
+    BlocTitleComponent,
+    BlocPresentationComponent,
+    ServicesComponent,
+    OverviewOrderComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

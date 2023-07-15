@@ -11,7 +11,8 @@ import { ProductsService } from 'src/app/services/products.service';
 })
 export class CardDetailsComponent implements OnInit {
   product: Product | any;
-  discountedPrice: number;
+  productsList: Product[];
+  discountedPrices: number[];
 
   constructor(
     private router: Router,
@@ -19,28 +20,23 @@ export class CardDetailsComponent implements OnInit {
     private route: ActivatedRoute
   ) { }
 
-  ngOnInit():void{
-    // let id : number | undefined;
-    // id = !id ? 0 : id;
-    // if(id === undefined){
-      // id = 2;
-    // } else {
-// 
-    //  id = +this.route.snapshot.params["id"];
-    // }
-    // this.product = this.productsService.getProductById(id);
-    // this.product = this.productsService.getProductById(2);
+  ngOnInit(): void {
 
-    if (this.product.isDiscount && this.product.discountPercentage) {
-      const discount = (this.product.discountPercentage / 100) * this.product.price;
-      this.discountedPrice = this.product.price - discount;
+    const id = +this.route.snapshot.params["id"];
+    this.product = this.productsService.getProductById(id);
+
+  }
+  calculateDiscountedPrice(product: Product): number {
+    if (product.isDiscount && product.discountPercentage) {
+      const discount = (product.discountPercentage / 100) * product.price;
+      return product.price - discount;
     } else {
-      this.discountedPrice = this.product.price;
+      return product.price;
     }
   }
-
-  goToProductsList(): void {
-    this.router.navigate(['/products']);
+    goToProductsList(): void {
+      this.router.navigate(['/products']);
   }
-}
+  
+  }
 

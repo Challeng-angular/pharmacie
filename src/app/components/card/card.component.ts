@@ -9,6 +9,9 @@ import { ProductsService } from 'src/app/services/products.service';
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
+  animations: [
+    //a venir
+  ]
 })
 
 export class CardComponent implements OnInit {
@@ -17,7 +20,7 @@ export class CardComponent implements OnInit {
   discountedPrices: number[] = [];
   isDiscount: boolean = false;
   discountPercentage: number;
-  
+
 
 
   constructor(
@@ -25,7 +28,7 @@ export class CardComponent implements OnInit {
     private productsService: ProductsService,
   ) { }
 
-  
+
 
   ngOnInit() :void{
     this.productsList = this.productsService.getProductsList();

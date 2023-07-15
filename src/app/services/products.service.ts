@@ -9,9 +9,9 @@ export class ProductsService{
   getProductsList(): Product[]{
     return PRODUCTS
   }
-  // getProductById(id: number): Product | undefined{
-    // return this.productsList.find(product => product.id === id);
-  // }
+  getProductById(id: number): Product | undefined{
+    return this.productsList.find(product => product.id === id);
+  }
 
 }
 

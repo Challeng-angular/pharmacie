@@ -2,6 +2,7 @@
 @font-face {
   font-family: wallpoet;
   src: url('./assets/Wallpoet-Regular.ttf');
+  color: rgba(102, 112, 112, 0.493);
 }
 // Reset CSS
 * {
@@ -18,6 +19,7 @@ body {
   position: relative;
   margin: 0;
   font-family: inter, Roboto, wallpoet, sans-serif;
+  color: rgba(102, 112, 112, 0.493);
   background: #fafcf4;
 }
 #title{

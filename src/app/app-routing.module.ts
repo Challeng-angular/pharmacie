@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { AboutUsComponent } from './components/pages/about-us/about-us.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
@@ -12,6 +13,7 @@ import { ServicesComponent } from './components/pages/services/services.componen
 import { OverviewOrderComponent } from './components/pages/overview-order/overview-order.component';
 
 const routes: Routes = [
+  { path: 'test', component: ContactFormComponent},
   { path: 'accueil', component: HomeComponent },
   { path: 'produits', component: ListProductsComponent },
   { path: 'produit/:id', component: DetailProductComponent },

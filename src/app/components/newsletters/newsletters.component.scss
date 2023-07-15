@@ -1,0 +1,99 @@
+.section-newsletter {
+  margin-top: 5.5rem;
+  color: white;
+  .newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-block: 5rem;
+    background-color: #48b986;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    .newsletter__img-wrapper {
+      padding-right: 5rem;
+      @media screen and (max-width: 768px) {
+        padding-right: 0;
+        margin: auto;
+      }
+      .newsletter__img {
+        height: 15rem;
+      }
+    }
+    .newsletter__content {
+      height: 100%;
+      min-height: 15rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 510px) {
+        padding-right: 0;
+      }
+      @media screen and (max-width: 768px) {
+        margin-inline: auto;
+        padding-inline: 2rem;
+        text-align: center;
+      }
+      h2 {
+        text-align: left;
+        color: #fff;
+        text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+        font-size: clamp(1.4rem, 4vw, 2.375rem);
+        font-weight: 900;
+        line-height: 125%;
+        padding: 3rem 1rem 1rem 0;
+        @media screen and (max-width: 768px) {
+          padding: 1rem 1rem 1rem 0;
+          // margin-top: 1.5rem;
+          text-align: center;
+        }
+      }
+      p {
+        max-width: 28ch;
+        color: #fff;
+        text-align: left;
+        text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+        font-size: clamp(1rem, 4vw, 1.225rem);
+        font-weight: 500;
+        line-height: 134.5%;
+        padding-bottom: 1rem;
+        @media screen and (max-width: 768px) {
+          text-align: center;
+          margin-inline: auto;
+          margin-bottom: 1rem;
+        }
+      }
+      form {
+        display: flex;
+        align-items: flex-end;
+        @media screen and (max-width: 512px) {
+          flex-direction: column;
+          align-items: center;
+        }
+        .newsletter-email-input {
+          margin-bottom: -1.35em;
+          display: flex;
+          align-items: flex-start;
+          padding-right: 2rem;
+          @media screen and (max-width: 512px) {
+            padding-right: 0;
+            width: 100%;
+            align-items: center;
+            padding-bottom: 2rem;
+          }
+        }
+        .btn-newsletter {
+          font-family: Inter, sans-serif;
+          height: 3.1rem;
+          text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+          font-weight: 500;
+          font-size: 1rem;
+          @media screen and (min-width: 512px) {
+            font-size: 1.225rem;
+          }
+        }
+      }
+    }
+  }
+}

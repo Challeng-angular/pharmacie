@@ -11,16 +11,15 @@ export class Product {
 
   constructor(
     id: number,
-    name: string = "Entrer un nom... ",
-    description: string = "blabla",
+    name: string,
+    description: string,
+    discountPercentage: number,
+    price: number,
+    note: number,
     imagesUrl: string[] = ["../../assets/images/dolipranex3/doliprane1.jpg",
       "../../assets/images/dolipranex3/doliprane2.jpg",
       "../../assets/images/dolipranex3/doliprane3.jpg"
     ],
-    isDiscount: false,
-    discountPercentage: number,
-    price: number,
-    note: number,
 
   )
   {
@@ -28,7 +27,7 @@ export class Product {
     this.name = name;
     this.description = description;
     this.imagesUrl = imagesUrl;
-    this.isDiscount = isDiscount;
+    this.isDiscount = false;
     this.discountPercentage = discountPercentage;
     this.price = price;
     this.note = note;

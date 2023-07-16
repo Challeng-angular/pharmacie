@@ -1,83 +1,68 @@
-#container-form{
-  background-color: #F4F6ED;
-  display: flex;
-  flex-direction: column-reverse;
-  height: 750px;
-  @media screen and (min-width: 700px) {
-    margin-bottom: 5%;
+#container-form {
+  p {
+    max-width: 75ch;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+    color: #4a5355;
+    font-weight: 400;
+    padding-inline: 1rem;
+    font-size: 1.125rem;
   }
-  @media screen and (min-width: 1100px) {
-    margin: 5%;
-    width: 90%;
-    height: 555px;
-    flex-direction: row;
+  .form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f6ed;
+    min-height: 650px;
+    max-width: 1200px;
+    padding: 3rem;
+    margin-block: 3rem;
+    margin-inline: auto;
+    > * {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
     }
-}
-
-.full-width {
-  display: flex;
-  justify-content: center;
-  padding: 0%;
-  width: 350px;
-  @media screen and (min-width: 700px) {
-    width: 600px;
-  }
-  @media screen and (min-width: 1100px) {
-    padding: 2%;
-    width: 500px;
+    .img-wrapper {
+      display: none;
+      @media screen and (min-width: 1100px) {
+        display: block;
+      }
+      img {
+        margin-inline: auto;
+        max-width: 300px;
+        width: 100%;
+      }
     }
-}
-form{
-  height: 400px;
-}
-.shipping-card {
-  background-color: #F4F6ED;
-  width: 390px;
-  margin: 10px;
-  margin-bottom: 5%;
-  @media screen and (min-width: 700px) {
-    width: 650px;
-    margin-left: 5%;
-    padding: 2%;
-    margin-bottom: 5%;
-  }
-  @media screen and (min-width: 1100px) {
-    width: 650px;
-    max-width: 650px;
-    padding: 2%;
+    form {
+      height: auto;
+      width: calc(100% - 2rem);
     }
-}
-#img-form{
-display: flex;
-width: 300px;
-margin-left: 10%;
-  @media screen and (min-width: 700px) {
-    margin-left: 30%;
+    .shipping-card {
+      background-color: #f4f6ed;
+      padding: 1rem;
+      width: 100%;
 
-  }
-  @media screen and (min-width: 1100px) {
-margin-left: 15%;
-margin-top: 10%;
-justify-self: flex-end;
-height: 300px;
+      @media screen and (min-width: 768px) {
+        padding: 3rem;
+        min-width: 450px;
+      }
+      @media screen and (min-width: 1100px) {
+        max-width: 600px;
+      }
+      .mat-mdc-card-content,
+      .mat-mdc-card-actions {
+        padding-inline: 0;
+      }
+      mat-form-field {
+        width: 100%;
+        margin-bottom: 0.3rem;
+      }
+      mat-error {
+        font-size: 0.75rem;
+      }
     }
-}
-
-#button-envoyer{
-  display:flex;
-  margin-left: 60px;
-width: 250px;
-box-shadow: 0 0 15 15;
-@media screen and (min-width: 700px) {
-  width: 150px;
-  margin: 2%;
-}
-@media screen and (min-width: 1100px) {
-  width: 150px;
-margin: 2%;
   }
 }
-.col:last-child {
-  margin-right: 0;
-}
-

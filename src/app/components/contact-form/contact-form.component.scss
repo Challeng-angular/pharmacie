@@ -1,27 +1,68 @@
-.full-width {
-  width: 100%;
-}
+#container-form {
+  p {
+    max-width: 75ch;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+    color: #4a5355;
+    font-weight: 400;
+    padding-inline: 1rem;
+    font-size: 1.125rem;
+  }
+  .form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f6ed;
+    min-height: 650px;
+    max-width: 1200px;
+    padding: 3rem;
+    margin-block: 3rem;
+    margin-inline: auto;
+    > * {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+    }
+    .img-wrapper {
+      display: none;
+      @media screen and (min-width: 1100px) {
+        display: block;
+      }
+      img {
+        margin-inline: auto;
+        max-width: 300px;
+        width: 100%;
+      }
+    }
+    form {
+      height: auto;
+      width: calc(100% - 2rem);
+    }
+    .shipping-card {
+      background-color: #f4f6ed;
+      padding: 1rem;
+      width: 100%;
 
-.shipping-card {
-  min-width: 120px;
-  margin: 20px auto;
-}
-
-.mat-radio-button {
-  display: block;
-  margin: 5px 0;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.col {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.col:last-child {
-  margin-right: 0;
+      @media screen and (min-width: 768px) {
+        padding: 3rem;
+        min-width: 450px;
+      }
+      @media screen and (min-width: 1100px) {
+        max-width: 600px;
+      }
+      .mat-mdc-card-content,
+      .mat-mdc-card-actions {
+        padding-inline: 0;
+      }
+      mat-form-field {
+        width: 100%;
+        margin-bottom: 0.3rem;
+      }
+      mat-error {
+        font-size: 0.75rem;
+      }
+    }
+  }
 }

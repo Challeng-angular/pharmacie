@@ -9,6 +9,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CardComponent } from '../../card/card.component';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -21,6 +22,7 @@ describe('HomeComponent', () => {
         BlocTitleComponent,
         BlocPresentationComponent,
         NewslettersComponent,
+        CardComponent,
       ],
       imports: [
         MatInputModule,

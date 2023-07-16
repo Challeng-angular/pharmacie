@@ -1,27 +1,83 @@
-.full-width {
-  width: 100%;
-}
-
-.shipping-card {
-  min-width: 120px;
-  margin: 20px auto;
-}
-
-.mat-radio-button {
-  display: block;
-  margin: 5px 0;
-}
-
-.row {
+#container-form{
+  background-color: #F4F6ED;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
+  height: 750px;
+  @media screen and (min-width: 700px) {
+    margin-bottom: 5%;
+  }
+  @media screen and (min-width: 1100px) {
+    margin: 5%;
+    width: 90%;
+    height: 555px;
+    flex-direction: row;
+    }
 }
 
-.col {
-  flex: 1;
-  margin-right: 20px;
+.full-width {
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  width: 350px;
+  @media screen and (min-width: 700px) {
+    width: 600px;
+  }
+  @media screen and (min-width: 1100px) {
+    padding: 2%;
+    width: 500px;
+    }
+}
+form{
+  height: 400px;
+}
+.shipping-card {
+  background-color: #F4F6ED;
+  width: 390px;
+  margin: 10px;
+  margin-bottom: 5%;
+  @media screen and (min-width: 700px) {
+    width: 650px;
+    margin-left: 5%;
+    padding: 2%;
+    margin-bottom: 5%;
+  }
+  @media screen and (min-width: 1100px) {
+    width: 650px;
+    max-width: 650px;
+    padding: 2%;
+    }
+}
+#img-form{
+display: flex;
+width: 300px;
+margin-left: 10%;
+  @media screen and (min-width: 700px) {
+    margin-left: 30%;
+
+  }
+  @media screen and (min-width: 1100px) {
+margin-left: 15%;
+margin-top: 10%;
+justify-self: flex-end;
+height: 300px;
+    }
 }
 
+#button-envoyer{
+  display:flex;
+  margin-left: 60px;
+width: 250px;
+box-shadow: 0 0 15 15;
+@media screen and (min-width: 700px) {
+  width: 150px;
+  margin: 2%;
+}
+@media screen and (min-width: 1100px) {
+  width: 150px;
+margin: 2%;
+  }
+}
 .col:last-child {
   margin-right: 0;
 }
+

@@ -10,6 +10,10 @@
 
 # Pharmacy
 
+## Project description
+
+Discover the Pharmacy/Parapharmacy De La Mairie in Montreux. Top quality products for your health and well-being. Food supplements, Swiss cosmetics and more. Passionate experts at your service. Order online in complete confidentiality. Prioritize your health today!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
 ## Development server
@@ -36,9 +40,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Project description
-
-Discover the Pharmacy/Parapharmacy De La Mairie in Montreux. Top quality products for your health and well-being. Food supplements, Swiss cosmetics and more. Passionate experts at your service. Order online in complete confidentiality. Prioritize your health today!
 
 ## Installing development tools
 
@@ -61,7 +62,7 @@ Discover the Pharmacy/Parapharmacy De La Mairie in Montreux. Top quality product
 1. Place yourself in your project folder (with the terminal)
 2. Clone project :  `git clone git@github.com:Challeng-angular/pharmacie.git`
 3. Place yourself in the project : `cd pharmacie`
-4. Make sure the Docker Engine is running (Docker Desktop on Windaube)
+4. Make sure the Docker Engine is running (Docker Desktop on Windows)
 5. Launch Docker network : `docker-compose up -d`  
 ⚠️ Attention, does not work if the directory is stored in the Windows file system
 ⚠️ Use WSL or Linux system to clone the project
@@ -74,7 +75,7 @@ Discover the Pharmacy/Parapharmacy De La Mairie in Montreux. Top quality product
 ## Update node.js dependencies
 
 - In offline mode : `npm ci` (clean install, allows to update node_module)
-- In the docker network: `ng update @angular/cli @angular/core` this command updates the docker network
+- In the docker network: `docker-compose up --build -d` this command updates the docker network
 
 ## View unit test reports
 

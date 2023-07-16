@@ -37,12 +37,22 @@
         </div>
         <button id="card-modal" mat-button [matMenuTriggerFor]="menu"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>Ajouter au panier</button>
         <mat-menu #menu="matMenu">
-        <button mat-menu-item>Wathsapp<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon></button>
+      
+        <button mat-menu-item>Wathsapp<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="whatsapp"></mat-icon></button>
         <button mat-menu-item>Facebook<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon></button>
       </mat-menu>
 
 
-
+      <a mat-menu-item
+      href="https://www.whatsapp.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="./assets/images/whatsapp-logo.svg"
+        class="logo-social-link"
+        alt="whatsapp logo"
+      /></a>
 
       </mat-card-content>
     </mat-card>

@@ -1,0 +1,17 @@
+<div class="title-wrapper">
+  <img
+    src="./assets/images/illustration-pills.png"
+    alt="illustration medicament"
+    class="illustration-pills"
+  />
+  <h2>{{ title }}</h2>
+  <img
+    [src]="
+      isDisplayFirstPict
+        ? './assets/images/doctor-01.png'
+        : './assets/images/doctor-02.png'
+    "
+    alt="medecin"
+    class="img-doctor"
+  />
+</div>

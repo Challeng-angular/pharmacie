@@ -1,0 +1,13 @@
+
+.shipping-card{
+  min-width: fit-content;
+  
+  @media screen and (min-width: 800px){
+  
+  }
+  @media screen and (min-width: 1200px){
+    min-width: 80%;
+
+  }
+}
+

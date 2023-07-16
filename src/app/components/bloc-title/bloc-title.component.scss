@@ -1,0 +1,41 @@
+.title-wrapper {
+  position: relative;
+  width: 100%;
+  height: clamp(5rem, 25vw, 19rem);
+  background: linear-gradient(360deg, #ebfaf5 0%, #eff6e0 96.88%);
+  h2 {
+    height: 100%;
+    width: 13ch;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-family: Libre Baskerville, Arial, Helvetica, sans-serif;
+    font-size: clamp(2rem, 4vw, 3.625rem);
+    font-weight: 400;
+    font-style: italic;
+    color: #48b986;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    line-height: 110%;
+    position: relative;
+    z-index: 2;
+  }
+  .img-doctor,
+  .illustration-pills {
+    position: absolute;
+    z-index: 1;
+  }
+  .illustration-pills {
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+  .img-doctor {
+    height: 20vw;
+    max-height: 19rem;
+    width: auto;
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+  }
+}

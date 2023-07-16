@@ -4,11 +4,16 @@
   src: url('./assets/Wallpoet-Regular.ttf');
   color: rgba(102, 112, 112, 0.493);
 }
+@import"theme.scss";
 // Reset CSS
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 html,
@@ -22,9 +27,19 @@ body {
   color: rgba(102, 112, 112, 0.493);
   background: #fafcf4;
 }
-#title{
-  margin-top: 5%;
+ul {
+  list-style: none;
+}
+app-root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+.cdk-overlay-container {
   position: absolute;
-  margin-bottom: 50%;
-  margin-left: 50%;
+  top: 4.2rem;
+  right: 0;
+  z-index: 100;
+  width: 100%;
 }

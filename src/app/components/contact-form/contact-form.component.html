@@ -12,7 +12,7 @@
             <mat-error
               *ngIf="addressForm.controls['firstName'].hasError('required')"
             >
-              First name is <strong>required</strong>
+              Prénom est <strong>Obligatoire</strong>
             </mat-error>
           </mat-form-field>
         </div>
@@ -22,7 +22,7 @@
             <mat-error
               *ngIf="addressForm.controls['lastName'].hasError('required')"
             >
-              Last name is <strong>required</strong>
+              NOM est <strong>Obligatoire</strong>
             </mat-error>
           </mat-form-field>
 
@@ -32,6 +32,11 @@
         <div class="col">
           <mat-form-field class="full-width">
             <input matInput placeholder="Email" formControlName="email" />
+            <mat-error
+              *ngIf="addressForm.controls['email'].hasError('required')"
+              >
+              Adresse email est <strong>Obligatoire</strong>
+            </mat-error>
           </mat-form-field>
         </div>
       </div>
@@ -46,7 +51,7 @@
             <mat-error
               *ngIf="addressForm.controls['message'].hasError('required')"
             >
-              Adresse mail est <strong>Obligatoire</strong>
+              Le message de contact est <strong>Obligatoire</strong>
             </mat-error>
           </mat-form-field>
         </div>

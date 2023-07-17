@@ -1,9 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Wallpoet&display=swap&family=Libre+Baskerville:ital@1&display=swap");
+@font-face {
+  font-family: wallpoet;
+  src: url('./assets/Wallpoet-Regular.ttf' );
+  color: rgba(102, 112, 112, 0.493);
+}
 
-// Import custom color theme
-@import "theme.scss";
-
+@import"theme.scss";
 // Reset CSS
 * {
   margin: 0;
@@ -20,8 +22,10 @@ body {
   min-height: 100%;
 }
 body {
+  position: relative;
   margin: 0;
-  font-family: inter, Roboto, "Helvetica Neue", sans-serif;
+  font-family: inter, Roboto, wallpoet, sans-serif;
+  color: rgba(102, 112, 112, 0.493);
   background: #fafcf4;
 }
 ul {

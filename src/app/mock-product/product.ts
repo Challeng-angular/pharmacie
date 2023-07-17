@@ -6,22 +6,22 @@ export class Product {
     isDiscount: boolean;
     discountPercentage: number;
     price: number;
-    note: number;
-
+  stars: Array<number>;
+  rating: number;
 
   constructor(
     id: number,
     name: string = "Entrer un nom... ",
     description: string = "blabla",
-    imagesUrl: string[] = ["../../assets/images/dolipranex3/doliprane1.jpg",
+    imagesUrl: string[] = ["../../assets/images/Rectangle104.png",
       "../../assets/images/dolipranex3/doliprane2.jpg",
       "../../assets/images/dolipranex3/doliprane3.jpg"
     ],
     isDiscount: false,
     discountPercentage: number,
     price: number,
-    note: number,
-
+    stars: number[] = [1, 2, 3, 4, 5],
+    rating: number,
   )
   {
     this.id = id;
@@ -31,8 +31,7 @@ export class Product {
     this.isDiscount = isDiscount;
     this.discountPercentage = discountPercentage;
     this.price = price;
-    this.note = note;
-
+    this.stars = stars;
+    this.rating = rating;
 }
-
 }

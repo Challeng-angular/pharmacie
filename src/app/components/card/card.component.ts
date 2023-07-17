@@ -8,34 +8,37 @@ import { ProductsService } from 'src/app/services/products.service';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
   providers: [ProductsService],
-  // animations: [] a venir
 })
+
 export class CardComponent implements OnInit {
-  productsList: Product[];
+  @Input() productsList: Product[];
   @Input() product: Product;
   discountedPrices: number[] = [];
   isDiscount: boolean = false;
   discountPercentage: number;
 
+
   constructor(
     private router: Router,
-    private productsService: ProductsService
-  ) {}
+    private productsService: ProductsService,
+  ) { }
 
-  ngOnInit(): void {
-    this.productsList = this.productsService.getProductsList();
-    this.productsList.forEach((product) => {
+
+    ngOnInit(): void {
+      this.productsList = this.productsService.getProductsList();
+
+    }
+    calculateDiscountedPrice(product: Product): number {
       if (product.isDiscount && product.discountPercentage) {
         const discount = (product.discountPercentage / 100) * product.price;
-        const discountedPrice = product.price - discount;
-        this.discountedPrices.push(discountedPrice);
+        return product.price - discount;
       } else {
-        this.discountedPrices.push(product.price);
+        return product.price;
       }
-    });
-  }
+    }
+    goToProduct(product: Product) {
+      this.router.navigate(['/produit', product.id]);
+    }
 
-  goToProduct(product: Product) {
-    this.router.navigate(['/produit', product.id]);
-  }
+  
 }

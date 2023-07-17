@@ -1,65 +1,3 @@
-<<<<<<< HEAD
-<ng-container>
-  <form id="form"[formGroup]="addressForm" novalidate (ngSubmit)="onSubmit()">
-  <mat-card class="shipping-card">
-    <mat-card-header>
-      <mat-card-title>Demande de contact</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Prénom" formControlName="firstName" />
-            <mat-error
-              *ngIf="addressForm.controls['firstName'].hasError('required')"
-            >
-              First name is <strong>required</strong>
-            </mat-error>
-          </mat-form-field>
-        </div>
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Nom" formControlName="lastName" />
-            <mat-error
-              *ngIf="addressForm.controls['lastName'].hasError('required')"
-            >
-              Last name is <strong>required</strong>
-            </mat-error>
-          </mat-form-field>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Email" formControlName="email" />
-          </mat-form-field>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <textarea
-              matInput
-              placeholder="Message"
-              formControlName="message"
-            ></textarea>
-            <mat-error
-              *ngIf="addressForm.controls['message'].hasError('required')"
-            >
-              Adresse mail est <strong>Obligatoire</strong>
-            </mat-error>
-          </mat-form-field>
-        </div>
-      </div>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-raised-button color="primary" type="submit">Submit</button>
-    </mat-card-actions>
-  </mat-card>
-</form>
-<div id="img-form"></div>
-</ng-container>
-=======
 <div id="container-form">
   <p>
     Nous serions ravis de répondre à toutes vos questions et demandes de
@@ -156,4 +94,3 @@
     </div>
   </div>
 </div>
->>>>>>> db039a8900d0623107988d7f3ae7004e77b6dbb1

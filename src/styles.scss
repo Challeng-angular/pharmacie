@@ -1,11 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+// Import fonts
 @font-face {
   font-family: wallpoet;
-  src: url('./assets/Wallpoet-Regular.ttf' );
-  color: rgba(102, 112, 112, 0.493);
+  src: url("./assets/typo/Wallpoet-Regular.ttf");
 }
 
-@import"theme.scss";
+@font-face {
+  font-family: Libre Baskerville;
+  src: url("./assets/typo/LibreBaskerville-Italic.ttf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/typo/Inter-VariableFont-slnt-wght.ttf");
+}
+
+// Import custom theme
+@import "theme.scss";
+
 // Reset CSS
 * {
   margin: 0;

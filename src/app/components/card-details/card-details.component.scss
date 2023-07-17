@@ -2,15 +2,15 @@
   font-family: Libre Baskerville;
   src: url('../../../assets/Inter-VariableFont_slnt\,wght.ttf');
   color: rgba(102, 112, 112, 0.493);
-}
+  }
 
-#container-card{
+  #container-card{
   display: flex;
   display: inline-flex;
   margin-top: 10%;
   font-family:  inter, sans-serif;
   min-width: 100vh;
-  height: 800px;
+  height: 810px;
   margin-bottom: 20px;
   @media screen and (min-width: 800px){
     min-width: 50%;
@@ -19,15 +19,16 @@
     margin-left: 3%;
     margin-inline: 0%;
   }
-}
+  }
 
- #card-generic {
+  #card-generic {
   position: relative;
   display: flex;
   background-color: rgba(102, 112, 112, 0.071);
     height: 700px;
     width: 390px;
     margin-bottom: 5%;
+    margin-inline: 5px;
     box-shadow: 5px 5px 10px rgba(102, 112, 112, 0.493);
     @media screen and (min-width: 800px){
       height: 500px;
@@ -42,7 +43,7 @@
     }
   }
 
-/*container image card*/
+  /*container image card*/
     #card-title{
       padding-bottom: 2%;
       display: flex;
@@ -50,7 +51,7 @@
     }
 
 
-/*image card principale*/
+  /*image card principale*/
     #img-card{
     position: absolute;
     display: flex;
@@ -73,23 +74,10 @@
       height: 250px;
       margin-right: 60%;
       background-color: white;
+      margin-bottom: 2%;
     }
 
-.miniature-card{
-    height: 400px;
-    width: 150px;
-    padding: 25px;
-  background-color: white;
 
-    object-fit: cover;
-    margin-bottom: 20px;
-    @media screen and (min-width: 800px){
-      margin-right: 80%;
-          }
-    @media screen and (min-width: 1200px){
-      width: 50%;
-    }
-  }
   }#card-content{
     position: absolute;
     display: flex;
@@ -107,10 +95,10 @@
         margin-right: 10%;
       }
     }
-#card-header{
+  #card-header{
   height: 400px;
-}
-#card-description{
+  }
+  #card-description{
       margin-top: 100%;
       text-align: justify;
       margin-left: 1%;
@@ -129,17 +117,17 @@
       }
     }
 
-#product-name{
+  #product-name{
   align-self:center;
   margin-bottom:20px;
   color: #4A5355;
   text-align: center;
-}
+  }
 
-#card-stars{
+  #card-stars{
   width: 100%;
-}
-.rating-stars {
+  }
+  .rating-stars {
   height:min-content;
   margin-right: 40%;
   min-width: 200px;
@@ -150,15 +138,15 @@
     width: 25%;
     margin-right: 24%;
   }
-mat-icon {
+  mat-icon {
       font-size: 20px;
     }
-#star-icon {
+  #star-icon {
     color: rgba(102, 112, 112, 0.817);
       }
     }
 
-#discount-badge {
+  #discount-badge {
   position: absolute;
      width: 80px;
     min-height: 300px;
@@ -180,49 +168,94 @@ mat-icon {
     top: 0;
     right: 0;
   }
-}
+  }
 
-.line{
+  .line{
   text-decoration: line-through;
-}
+  }
 
-#price-reduct{
+  #price-reduct{
   color: #D24A2C;
   font-weight: bold;
-}
-#price{
+  }
+  #price{
   display: flex;
   align-items: end;
   justify-content: space-between;
-  margin-right: 10px;
-  margin-top: 20%;
-}
-#miniature-container{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  margin-top: 60%;
-  margin-right: 75%;
-  height: 350px;
-  width: 100px;
-  max-width: 70px;
-  object-fit: contain;
-@media screen and (min-width: 800px){
-margin-right: 60%;
-margin-top: 4%;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-max-width: 100%;
-width: 100%;
+  margin-right: 30px;
+  margin-top: 10%;
+  margin-bottom: 10px;
+  }
+
+  .miniature-card{
+    width: 140px;
+    padding: 25px;
+    background-color: white;
+    object-fit: cover;
+    margin-bottom: 30px;
+    margin-left: 1%;
+    @media screen and (min-width: 800px){
+      margin-right: 80%;
+      height: 400px;
+          }
+    @media screen and (min-width: 1200px){
+      width: 35%;
+      height: 400px;
+
     }
-@media screen and (min-width: 1200px){
-margin-right: 60%;
-margin-top: 4%;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-max-width: 100%;
-width: 100%;
-}
-}
+  }
+  #miniature-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 65%;
+    height: 2000px;
+    min-width: 400px;
+    max-width: 70px;
+    width: auto;
+    object-fit: contain;
+    @media screen and (min-width: 800px){
+    margin-right: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 7%;
+    height: 100%;
+      }
+    @media screen and (min-width: 1200px){
+    margin-right: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 25%;
+    height: 350px;
+    margin-top: 8%;
+
+    }
+    }
+    #card-modal{
+      position: absolute;
+      margin: top 100VH;
+      margin-right: 10px;
+
+    }
+
+    #button-pre{
+      margin-top: 20px;
+      margin-right: 20px;
+    }
+    #card-icon{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: row;
+      height: 60px;
+    }
+    .card-icons-color{
+      color: rgba(102, 112, 112, 0.817);
+      margin-right: 20px;
+
+    }

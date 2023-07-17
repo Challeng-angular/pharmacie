@@ -10,6 +10,7 @@ export class HomeComponent {
     'Santé et bien-être à portée de clic',
     'Les meilleurs offres du moment',
     'Nos meilleurs ventes',
+    'Détails du produit'
   ];
   isDoctorFirstPict: boolean = true;
 }

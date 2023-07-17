@@ -2,9 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CardDetailsComponent } from './card-details.component';
 
-
 describe('CardDetailsComponent', () => {
-  // disable test 
   let component: CardDetailsComponent;
   let fixture: ComponentFixture<CardDetailsComponent>;
 
@@ -12,11 +10,12 @@ describe('CardDetailsComponent', () => {
     TestBed.configureTestingModule({
       declarations: [CardDetailsComponent]
     });
-   
+    fixture = TestBed.createComponent(CardDetailsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
   });
 
   it('should create', () => {
-    let a = true
-    expect(a).toBe(true);
+    expect(component).toBeTruthy();
   });
 });

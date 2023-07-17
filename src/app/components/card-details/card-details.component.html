@@ -1,59 +1,44 @@
-<div (click)="goToProductsList()" id="container-card" >
+<div id="container-card">
   <div id="background-content"></div>
   <mat-card id="card-generic">
-      <mat-card-header appCard id="card-header">
-        <mat-card-title-group >
-          <mat-card-title></mat-card-title>
-          <mat-card-subtitle></mat-card-subtitle>
-<div id="miniature-container">
-          <div id="miniature-container" *ngFor="let imageUrl of product.imagesUrl let i = index ">
-            <img mat-card-sm-image [src]="product.imagesUrl[i]" alt="image.product">
+    <mat-card-header appCard id="card-header">
+      <mat-card-title-group>
+        <mat-card-title></mat-card-title>
+        <mat-card-subtitle></mat-card-subtitle>
+        <div id="miniature-container">
+          <div class="miniature-card" *ngFor="let imageUrl of product.imagesUrl; let i = index">
+            <img mat-card-sm-image [src]="imageUrl" alt="image.product">
           </div>
         </div>
-
-            <img id="img-card"mat-card-sm-image [src]="product.imagesUrl[0]" alt="image.product">
-          
-
-
-        </mat-card-title-group>
-      </mat-card-header>
-      <mat-card-content id="card-content">
-<div id="card-description">
+        <img id="img-card" mat-card-sm-image [src]="product.imagesUrl[0]" alt="image.product">
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content id="card-content">
+      <div id="card-description">
         <h3 id="product-name">{{ product.name }}</h3>
-        <div >{{product.description}}</div>
+        <div>{{ product.description }}</div>
       </div>
-        <div class="rating-stars">
-          <ng-container class="rating-stars" *ngFor="let star of [1, 2, 3, 4, 5]">
-            <mat-icon id="star-icon" [ngClass]="{'active': star <= product.rating}" [style.color]="star <= product.rating ? 'rgba(255, 179, 0, 0.749)' : ''">star</mat-icon>
-          </ng-container>
+      <div class="rating-stars">
+        <ng-container *ngFor="let star of [1, 2, 3, 4, 5]" class="rating-stars">
+          <mat-icon id="star-icon" [ngClass]="{'active': star <= product.rating}" [style.color]="star <= product.rating ? 'rgba(255, 179, 0, 0.749)' : ''">star</mat-icon>
+        </ng-container>
+      </div>
+      <div id="price" [class.discounted]="product.isDiscount">
+        <span id="discount-badge" *ngIf="product.isDiscount">-{{ product.discountPercentage }}%</span>
+        <p *ngIf="product.isDiscount" class="line"><del>{{ product.price }}€&nbsp;</del></p>
+        <p id="price-reduct" *ngIf="product.isDiscount">&nbsp;{{ calculateDiscountedPrice(product) }}€</p>
+        <p *ngIf="!product.isDiscount">{{ product.price }}€</p>
+      </div>
 
-        </div>
-    <div id="price" [class.discounted]="product.isDiscount">
-          <span id="discount-badge" *ngIf="product.isDiscount" >-{{ product.discountPercentage }}%</span>
-          <p *ngIf="product.isDiscount" class="line"><del>{{ product.price }}€&nbsp;</del></p>
-    <p id="price-reduct" *ngIf="product.isDiscount">&nbsp;{{  calculateDiscountedPrice(product) }}€</p>
-    <p *ngIf="!product.isDiscount">{{ product.price  }}€</p>
 
-        </div>
-        <button id="card-modal" mat-button [matMenuTriggerFor]="menu"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>Ajouter au panier</button>
-        <mat-menu #menu="matMenu">
-      
-        <button mat-menu-item>Wathsapp<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="whatsapp"></mat-icon></button>
-        <button mat-menu-item>Facebook<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon></button>
+      <button class="card-icons-color" mat-button [matMenuTriggerFor]="menu">Ajouter au panier<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="shopping_basket"></mat-icon></button>
+      <mat-menu id="card-modal" #menu="matMenu">
+        <button mat-menu-item>WhatsApp<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="whatsapp"></mat-icon></button>
+        <button mat-menu-item >Facebook<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon></button>
       </mat-menu>
+      <button id="button-pre" mat-raised-button color="primary" (click)="goToProductsList()">Retour</button>
 
+    </mat-card-content>
+  </mat-card>
+</div>
 
-      <a mat-menu-item
-      href="https://www.whatsapp.com"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src="./assets/images/whatsapp-logo.svg"
-        class="logo-social-link"
-        alt="whatsapp logo"
-      /></a>
-
-      </mat-card-content>
-    </mat-card>
-  </div>

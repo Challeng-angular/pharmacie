@@ -1,4 +1,4 @@
-import { Component, OnInit,Input,ElementRef, Renderer2  } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 import {  Router } from '@angular/router';
 import { Product } from 'src/app/mock-product/product';
 import { ProductsService } from 'src/app/services/products.service';
@@ -9,18 +9,15 @@ import { ProductsService } from 'src/app/services/products.service';
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
-  animations: [
-    //a venir
-  ]
+  providers: [ProductsService],
 })
 
 export class CardComponent implements OnInit {
-  productsList: Product[];
+  @Input() productsList: Product[];
   @Input() product: Product;
   discountedPrices: number[] = [];
   isDiscount: boolean = false;
   discountPercentage: number;
-
 
 
   constructor(
@@ -29,24 +26,20 @@ export class CardComponent implements OnInit {
   ) { }
 
 
+    ngOnInit(): void {
+      this.productsList = this.productsService.getProductsList();
 
-  ngOnInit() :void{
-    this.productsList = this.productsService.getProductsList();
-    this.productsList.forEach(product => {
+    }
+    calculateDiscountedPrice(product: Product): number {
       if (product.isDiscount && product.discountPercentage) {
         const discount = (product.discountPercentage / 100) * product.price;
-        const discountedPrice = product.price - discount;
-        this.discountedPrices.push(discountedPrice);
+        return product.price - discount;
       } else {
-        this.discountedPrices.push(product.price);
+        return product.price;
       }
-    });
-
-  }
-
-  goToProduct(product: Product) {
-    this.router.navigate(["/produit", product.id ])
-  }
-
+    }
+    goToProduct(product: Product) {
+      this.router.navigate(['/produit', product.id]);
+    }
 
 }

@@ -27,6 +27,8 @@ import { BlocPresentationComponent } from './components/bloc-presentation/bloc-p
 import { ServicesComponent } from './components/pages/services/services.component';
 import { OverviewOrderComponent } from './components/pages/overview-order/overview-order.component';
 import { HeaderComponent } from './components/layouts/header/header.component';
+import { DetailProductComponent } from './components/pages/detail-product/detail-product.component';
+
 
 @NgModule({
   declarations: [
@@ -50,7 +52,8 @@ import { HeaderComponent } from './components/layouts/header/header.component';
     BlocPresentationComponent,
     ServicesComponent,
     OverviewOrderComponent,
-    HeaderComponent
+    HeaderComponent,
+    DetailProductComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +61,7 @@ import { HeaderComponent } from './components/layouts/header/header.component';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     MaterialModule,
-    
+
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent],

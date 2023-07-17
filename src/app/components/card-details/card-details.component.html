@@ -30,16 +30,6 @@
         <p *ngIf="!product.isDiscount">{{ product.price }}€</p>
       </div>
 
-      <!--<button mat-button [matMenuTriggerFor]="afterMenu">After</button>
-      <mat-menu #afterMenu="matMenu" xPosition="after">
-        <button mat-menu-item>Item 1</button>
-        <button mat-menu-item>Item 2</button>
-      </mat-menu>-->
-      <!--<button class="card-icons-color" mat-button [matMenuTriggerFor]="menu">Ajouter au panier<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="shopping_basket"></mat-icon></button>
-      <mat-menu id="card-modal" #menu="matMenu">
-        <button mat-menu-item>WhatsApp<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="whatsapp"></mat-icon></button>
-        <button mat-menu-item >Facebook<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon></button>
-      </mat-menu>-->
       <button id="button-pre" mat-raised-button color="primary" (click)="goToProductsList()">Retour</button>
 
     </mat-card-content>

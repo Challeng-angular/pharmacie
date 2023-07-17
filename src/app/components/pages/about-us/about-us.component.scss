@@ -1,0 +1,70 @@
+.container-card{
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 60%;
+  height: 400px;
+  margin-bottom: 8px;
+  margin-left: 20%;
+  float: left;
+  shape-outside: content-box;
+}
+
+#img-about{
+  display: flex;
+  margin-top: 20%;
+  margin-left: 20%;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  
+  
+  
+}
+.containt-wraper{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  > *{
+    width: 50%;
+  }
+  width: 600px;
+}
+
+mat-card-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title-aboutus{
+margin-bottom: 20px;
+}
+
+.containt-wraper p{
+  line-height: 1.4;
+}
+
+.container-card{
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 60%;
+  height: 400px;
+  margin-bottom: 8px;
+  margin-left: 20%;
+  float: left;
+  shape-outside: content-box;
+}
+
+#img-about{
+  display: flex;
+  margin-top: 20%;
+  margin-left: 20%;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  
+  
+  
+}

@@ -38,5 +38,7 @@ export class CardDetailsComponent implements OnInit  {
   }
   goToProductsList(): void {
     this.router.navigate(['/produits']);
+
+    }
 }
-}
+

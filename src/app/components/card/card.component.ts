@@ -1,9 +1,7 @@
-import { Component, OnInit,Input } from '@angular/core';
-import {  Router } from '@angular/router';
+import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { Product } from 'src/app/mock-product/product';
 import { ProductsService } from 'src/app/services/products.service';
-
-
 
 @Component({
   selector: 'app-card',
@@ -42,4 +40,5 @@ export class CardComponent implements OnInit {
       this.router.navigate(['/produit', product.id]);
     }
 
+  
 }

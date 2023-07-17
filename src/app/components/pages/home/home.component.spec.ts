@@ -4,12 +4,14 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HomeComponent } from './home.component';
 import { BlocTitleComponent } from '../../bloc-title/bloc-title.component';
 import { BlocPresentationComponent } from '../../bloc-presentation/bloc-presentation.component';
+import { CardComponent } from '../../card/card.component';
 
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CardComponent } from '../../card/card.component';
+import { MatCardModule } from '@angular/material/card';
+
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -29,6 +31,7 @@ describe('HomeComponent', () => {
         MatFormFieldModule,
         FormsModule,
         BrowserAnimationsModule,
+        MatCardModule
       ],
     });
     fixture = TestBed.createComponent(HomeComponent);

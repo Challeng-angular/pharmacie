@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
   font-family: wallpoet;
-  src: url('./assets/Wallpoet-Regular.ttf');
+  src: url('./assets/Wallpoet-Regular.ttf' );
   color: rgba(102, 112, 112, 0.493);
 }
+
 @import"theme.scss";
 // Reset CSS
 * {

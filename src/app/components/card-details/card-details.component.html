@@ -6,11 +6,19 @@
         <mat-card-title></mat-card-title>
         <mat-card-subtitle></mat-card-subtitle>
         <div id="miniature-container">
-          <div class="miniature-card" *ngFor="let imageUrl of product.imagesUrl; let i = index">
-            <img mat-card-sm-image [src]="imageUrl" alt="image.product">
+          <div
+            class="miniature-card"
+            *ngFor="let imageUrl of product.imagesUrl; let i = index"
+          >
+            <img mat-card-sm-image [src]="imageUrl" alt="image.product" />
           </div>
         </div>
-        <img id="img-card" mat-card-sm-image [src]="product.imagesUrl[0]" alt="image.product">
+        <img
+          id="img-card"
+          mat-card-sm-image
+          [src]="product.imagesUrl[0]"
+          alt="image.product"
+        />
       </mat-card-title-group>
     </mat-card-header>
     <mat-card-content id="card-content">
@@ -20,17 +28,30 @@
       </div>
       <div class="rating-stars">
         <ng-container *ngFor="let star of [1, 2, 3, 4, 5]" class="rating-stars">
-          <mat-icon id="star-icon" [ngClass]="{'active': star <= product.rating}" [style.color]="star <= product.rating ? 'rgba(255, 179, 0, 0.749)' : ''">star</mat-icon>
+          <mat-icon
+            id="star-icon"
+            [ngClass]="{ active: star <= product.rating }"
+            [style.color]="
+              star <= product.rating ? 'rgba(255, 179, 0, 0.749)' : ''
+            "
+            >star</mat-icon
+          >
         </ng-container>
       </div>
       <div id="price" [class.discounted]="product.isDiscount">
-        <span id="discount-badge" *ngIf="product.isDiscount">-{{ product.discountPercentage }}%</span>
-        <p *ngIf="product.isDiscount" class="line"><del>{{ product.price }}€&nbsp;</del></p>
-        <p id="price-reduct" *ngIf="product.isDiscount">&nbsp;{{ calculateDiscountedPrice(product) }}€</p>
+        <span id="discount-badge" *ngIf="product.isDiscount"
+          >-{{ product.discountPercentage }}%</span
+        >
+        <p *ngIf="product.isDiscount" class="line">
+          <del>{{ product.price }}€&nbsp;</del>
+        </p>
+        <p id="price-reduct" *ngIf="product.isDiscount">
+          &nbsp;{{ calculateDiscountedPrice(product) }}€
+        </p>
         <p *ngIf="!product.isDiscount">{{ product.price }}€</p>
       </div>
 
-      <!--<button mat-button [matMenuTriggerFor]="afterMenu">After</button>
+      <!-- <button mat-button [matMenuTriggerFor]="afterMenu">After</button>
       <mat-menu #afterMenu="matMenu" xPosition="after">
         <button mat-menu-item>Item 1</button>
         <button mat-menu-item>Item 2</button>
@@ -39,10 +60,15 @@
       <mat-menu id="card-modal" #menu="matMenu">
         <button mat-menu-item>WhatsApp<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="whatsapp"></mat-icon></button>
         <button mat-menu-item >Facebook<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon></button>
-      </mat-menu>-->
-      <button id="button-pre" mat-raised-button color="primary" (click)="goToProductsList()">Retour</button>
-
+      </mat-menu> -->
+      <button
+        id="button-pre"
+        mat-raised-button
+        color="primary"
+        (click)="goToProductsList()"
+      >
+        Retour
+      </button>
     </mat-card-content>
   </mat-card>
 </div>
-

@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Product } from 'src/app/mock-product/product';
 import { ProductsService } from 'src/app/services/products.service';
-
 
 @Component({
   selector: 'app-list-products',
@@ -9,14 +8,14 @@ import { ProductsService } from 'src/app/services/products.service';
   styleUrls: ['./list-products.component.scss'],
   providers: [ProductsService],
 })
-export class ListProductsComponent implements OnInit{
+export class ListProductsComponent {
   productsList: Product[];
-
-constructor(productsService: ProductsService){
-  
-}
-ngOnInit(): void {
-    
-}
-
+  isDoctorFirstPict: boolean = true;
+  titleList: string[] = [
+    'Compléments alimentaires',
+    'Spécialités en vente libre',
+    'Cosmétiques & Maquillages',
+    'Phytothérapie & Homéopathie',
+    'Spagyrie',
+  ];
 }

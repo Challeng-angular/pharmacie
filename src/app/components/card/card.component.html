@@ -1,29 +1,50 @@
-<div (click)="goToProduct(product)" id="container-card" *ngFor="let product of productsList ; let i = index" >
+<div
+  (click)="goToProduct(product)"
+  id="container-card"
+  *ngFor="let product of productsList; let i = index"
+>
   <mat-card id="card-generic">
-      <mat-card-header appCard id="">
-        <mat-card-title-group>
-          <mat-card-title></mat-card-title>
-          <mat-card-subtitle></mat-card-subtitle>
-          <img id="img-card" mat-card-sm-image [src]="product.imagesUrl[0]" alt="image.product">
-        </mat-card-title-group>
-      </mat-card-header>
-      <mat-card-content id="card-content">
-        <h3 id="product-name">{{ product.name }}</h3>
-        <div>{{product.description}}</div>
-        <div class="rating-stars">
-          <ng-container class="rating-stars" *ngFor="let star of [1, 2, 3, 4, 5]">
-            <mat-icon id="star-icon" [ngClass]="{'active': star <= product.rating}" [style.color]="star <= product.rating ? 'rgba(255, 179, 0, 0.749)' : ''">star</mat-icon>
-          </ng-container>
-
-        </div>
-        <div id="price" [class.discounted]="product.isDiscount">
-          <span id="discount-badge" *ngIf="product.isDiscount" >-{{ product.discountPercentage }}%</span>
-          <p *ngIf="product.isDiscount" class="line"><del>{{ product.price }}€ &nbsp; </del></p>
-          <p id="price-reduct" *ngIf="product.isDiscount">&nbsp;{{  calculateDiscountedPrice(product) }}€</p>
-          <p *ngIf="!product.isDiscount">{{ product.price  }}€</p>
-
-        </div>
-
-      </mat-card-content>
-    </mat-card>
-  </div>
+    <mat-card-header appCard id="">
+      <mat-card-title-group>
+        <mat-card-title></mat-card-title>
+        <mat-card-subtitle></mat-card-subtitle>
+        <img
+          id="img-card"
+          mat-card-sm-image
+          [src]="product.imagesUrl[0]"
+          alt="image.product"
+        />
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content id="card-content">
+      <h3 id="product-name">{{ product.name }}</h3>
+      <p class="product-description">{{ product.description }}</p>
+      <div class="rating-stars">
+        <ng-container class="rating-stars" *ngFor="let star of [1, 2, 3, 4, 5]">
+          <mat-icon
+            class="star-icon"
+            [ngClass]="{ active: star <= product.rating }"
+            [style.color]="
+              star <= product.rating ? 'rgba(255, 179, 0, 0.749)' : ''
+            "
+            >star</mat-icon
+          >
+        </ng-container>
+      </div>
+      <div class="price-wrapper" [class.discounted]="product.isDiscount">
+        <span id="discount-badge" *ngIf="product.isDiscount"
+          >-{{ product.discountPercentage }}%</span
+        >
+        <p *ngIf="product.isDiscount" class="line">
+          <del class="price-del">{{ product.price }}€ &nbsp;</del>
+        </p>
+        <p class="price-reduct" *ngIf="product.isDiscount">
+          &nbsp;{{ calculateDiscountedPrice(product) }}€
+        </p>
+        <p class="price-no-reduct" *ngIf="!product.isDiscount">
+          {{ product.price }}€
+        </p>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

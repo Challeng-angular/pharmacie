@@ -10,7 +10,8 @@ describe('AboutUsComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AboutUsComponent, BlocTitleComponent, MatCardModule]
+      imports:[MatCardModule],
+      declarations: [AboutUsComponent, BlocTitleComponent]
     });
     fixture = TestBed.createComponent(AboutUsComponent);
     component = fixture.componentInstance;

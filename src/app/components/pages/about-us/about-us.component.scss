@@ -1,0 +1,187 @@
+.container-card{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  max-width: 80%;
+  height: 400px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  float: left;
+  shape-outside: content-box;
+  @media screen and (min-width: 800px){
+  margin-inline: 5%;
+ max-width: 100%;
+  }
+  @media screen and (min-width: 1200px){
+    margin-left: 20%;
+    max-width:60%;
+  }
+}
+
+
+.containt-wraper{
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width:  350px;
+  margin-bottom: 8px;
+  margin-inline: 2%;
+  shape-outside: content-box;
+  > *{
+    width: 100%;
+  }
+  @media screen and (min-width: 800px){
+    margin-left: 8%;
+    height: 400px;
+    width: 100%;
+    > *{
+    width: 100%;
+  }
+      }
+      @media screen and (min-width: 1200px){
+        margin-top: 30px;
+        width: 50%;
+        margin-left: 8%;
+        height: 400px;
+      align-items: center;
+      }
+}
+
+.content-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 100%;
+}
+.title-aboutus{
+margin-bottom: 20px;
+text-align: center;
+@media screen and (min-width: 800px){
+  margin-left:5%;
+  text-align: start;
+    }
+    @media screen and (min-width: 1200px){
+      margin-left: 35%;
+      text-align: start;
+    }
+}
+
+.containt-wraper p{
+  line-height: 1.4;
+  margin-left: 5%;
+ text-overflow: initial;
+  @media screen and (min-width: 800px){
+    width: 80%;
+  }
+  @media screen and (min-width: 1200px){
+    width: 400px;
+    margin-left:0;
+  }
+}
+
+#img-about{
+  visibility: hidden;
+  display: flex;
+  margin-top: 20%;
+  border-radius: 50%;
+  position: absolute;
+  @media screen and (min-width: 800px){
+    position: initial;
+    visibility: visible;
+    height: 250px;
+    width: 250px;
+    margin-left: 8%;
+      }
+      @media screen and (min-width: 1200px){
+        position: initial;
+        height: 250px;
+        width: 250px;
+        margin-left: 20%;
+        visibility: visible;
+}
+}
+/*deuxieme carte*/
+.container-card2{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  margin-bottom: 5%;
+  float: left;
+  shape-outside: content-box;
+  @media screen and (min-width: 800px){
+  margin-inline: 5%;
+  }
+  @media screen and (min-width: 1200px){
+    margin-left: 20%;
+    max-width:60%;
+  }
+}
+
+.containt-wraper2{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width:  350px;
+  margin-bottom: 8px;
+  margin-inline: 2%;
+  shape-outside: content-box;
+  > *{
+    width: 100%;
+  }
+  @media screen and (min-width: 800px){
+    margin-left: 8%;
+    height: 400px;
+    width: 100%;
+      }
+      @media screen and (min-width: 1200px){
+        width: 50%;
+        margin-left: 8%;
+        height: 400px;
+      }
+}
+.content-card2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-aboutus2{
+  margin-bottom: 20px;
+  margin-top: 5%;
+  text-align: center;
+  @media screen and (min-width: 800px){
+    margin-left:5%;
+    text-align: start;
+      }
+      @media screen and (min-width: 1200px){
+        margin-left: 35%;
+        text-align: start;
+      }
+  }
+
+.containt-wraper2 p{
+  line-height: 1.6;
+  display: flex;
+  align-self: flex-start;
+  }
+  #img-aboutus2{
+    visibility: hidden;
+    border-radius: 50%;
+    margin-top: 20%;
+@media screen and (min-width: 800px){
+  visibility: visible;
+  height: 250px;
+  width: 250px;
+  margin-right: 25%;
+    }
+    @media screen and (min-width: 1200px){
+      height: 250px;
+      width: 250px;
+      margin-right: 25%;
+    }
+  }
+.container{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}

@@ -1,138 +1,102 @@
-#container-card {
+.container-card {
   position: relative;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-block: 3rem;
-  font-family: inter, sans-serif;
-  min-width: 30%;
-  @media screen and (min-width: 800px) {
-    min-width: 50%;
-  }
-  @media screen and (min-width: 1200px) {
-    min-width: 25%;
-    margin-left: 3%;
-    margin-inline: 0%;
-  }
-}
-
-#card-generic {
-  display: flex;
-  align-self: center;
-  height: auto;
-  width: 330px;
-  margin-left: 15%;
-  min-width: 90%;
-  box-shadow: 5px 5px 10px rgba(102, 112, 112, 0.493);
-  @media screen and (min-width: 800px) {
-    min-width: 50%;
-    margin-left: 8%;
-  }
-  @media screen and (min-width: 1200px) {
-    min-width: 80%;
-  }
-}
-
-.mat-mdc-card-title-group {
-  display: flex;
   justify-content: center;
+  align-items: center;
+  padding-block: 2rem;
   width: 100%;
-}
-
-#product-name {
-  align-self: flex-start;
-  color: #4a5355;
-  font-weight: 500;
-  font-size: 1.75rem;
-  margin-block: 1rem;
-}
-.product-description {
-  display: -webkit-box;
-  max-width: 100%;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  margin-bottom: 0.5rem;
-}
-
-.rating-stars {
-  width: 100%;
-  height: 2rem;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  .star-icon {
-    margin-right: 0.3rem;
-    line-height: auto;
-    color: rgba(102, 112, 112, 0.817);
+  @media screen and (min-width: 1200px) {
+    padding-block: 4rem;
+    max-width: 1600px;
+    margin: auto;
   }
 }
 
-#discount-badge {
-  position: absolute;
-  width: 80px;
-  min-height: 300px;
-  top: 0;
-  right: 0;
-  background-image: url("../../../assets/images/badge-promo.svg");
-  background-size: cover;
-  text-align: center;
-  color: white;
-  padding: 2px;
-  height: 50px;
-  padding-top: 10px;
-  padding-left: 30px;
-  font-weight: bold;
-}
-
-#img-card {
+.card-generic {
   display: flex;
   align-self: center;
-  margin: 30px;
-  // margin-right: 20%;
-  width: 150px;
-  height: 150px;
-  object-fit: contain;
-}
-
-#card-content {
-  background-color: rgba(102, 112, 112, 0.071);
-  min-height: 50%;
-  padding-top: 5px;
-  color: #4a5355;
-  @media screen and (min-width: 800px) {
-    min-width: 50%;
+  justify-content: center;
+  margin-inline: 2rem;
+  height: auto;
+  width: 20.6rem;
+  margin-block: 2rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-out;
+  &:hover {
+    box-shadow: 0 5px 10px rgba(102, 112, 112, 0.493);
   }
-  @media screen and (min-width: 1200px) {
-    min-width: 25%;
+  .mat-mdc-card-title-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
-}
 
-#card-header {
-  height: 100%;
-}
-
-#card-description {
-  margin-top: 5px;
-}
-
-.line {
-  text-decoration: line-through;
-}
-
-.price-wrapper {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
-.price-reduct {
-  color: #d24a2c;
-  font-weight: bold;
-  font-size: 1.56rem;
-}
-.price-no-reduct {
-  font-weight: bold;
-  font-size: 1.56rem;
+  .product-name {
+    align-self: flex-start;
+    color: #4a5355;
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin-block: 1rem;
+  }
+  .product-description {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+  .rating-stars {
+    width: 100%;
+    height: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    .star-icon {
+      margin-right: 0.3rem;
+      color: rgba(102, 112, 112, 0.817);
+    }
+  }
+  .discount-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5rem;
+    height: 18.75rem;
+    background-image: url("../../../assets/images/badge-promo.svg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 0.7rem;
+    padding-left: 1.875rem;
+    font-weight: 800;
+  }
+  .img-card {
+    display: flex;
+    align-self: center;
+    margin: 2rem;
+    width: 9.6rem;
+    height: 9.6rem;
+    object-fit: contain;
+  }
+  .card-content {
+    background-color: #f4fcf1;
+    min-height: 50%;
+    line-height: 1.55;
+    color: #4a5355;
+    .price-wrapper {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.6rem;
+    }
+    .price-reduct,
+    .price-no-reduct {
+      font-weight: bold;
+      font-size: 1.56rem;
+    }
+    .price-reduct {
+      color: #d24a2c;
+    }
+  }
 }

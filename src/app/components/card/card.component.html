@@ -1,23 +1,23 @@
-<div
-  (click)="goToProduct(product)"
-  id="container-card"
-  *ngFor="let product of productsList; let i = index"
->
-  <mat-card id="card-generic">
-    <mat-card-header appCard id="">
+<div class="container-card">
+  <mat-card
+    class="card-generic"
+    (click)="goToProduct(product)"
+    *ngFor="let product of productsList; let i = index"
+  >
+    <mat-card-header appCard>
       <mat-card-title-group>
         <mat-card-title></mat-card-title>
         <mat-card-subtitle></mat-card-subtitle>
         <img
-          id="img-card"
+          class="img-card"
           mat-card-sm-image
           [src]="product.imagesUrl[0]"
           alt="image.product"
         />
       </mat-card-title-group>
     </mat-card-header>
-    <mat-card-content id="card-content">
-      <h3 id="product-name">{{ product.name }}</h3>
+    <mat-card-content class="card-content">
+      <h3 class="product-name">{{ product.name }}</h3>
       <p class="product-description">{{ product.description }}</p>
       <div class="rating-stars">
         <ng-container class="rating-stars" *ngFor="let star of [1, 2, 3, 4, 5]">
@@ -32,10 +32,10 @@
         </ng-container>
       </div>
       <div class="price-wrapper" [class.discounted]="product.isDiscount">
-        <span id="discount-badge" *ngIf="product.isDiscount"
+        <span class="discount-badge" *ngIf="product.isDiscount"
           >-{{ product.discountPercentage }}%</span
         >
-        <p *ngIf="product.isDiscount" class="line">
+        <p *ngIf="product.isDiscount">
           <del class="price-del">
             {{ product.price | currency : " " : "symbol" : "1.2-2" }}€
           </del>

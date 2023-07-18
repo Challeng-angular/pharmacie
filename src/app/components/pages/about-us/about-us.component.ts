@@ -8,5 +8,8 @@ import { ProductsService } from 'src/app/services/products.service';
   providers: [ProductsService]
 })
 export class AboutUsComponent {
-
+  titleList: string[] = [
+    'A propos',
+  ];
+  isDoctorFirstPict: boolean = true;
 }

@@ -1,3 +1,45 @@
+.navbar-top {
+  display: none;
+  @media screen and (min-width: 1100px) {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eff7e1;
+    color: #171818;
+    padding-inline: 3rem;
+    align-items: center;
+    height: 39px;
+    border-bottom: 1px solid #000000b7;
+    box-shadow: 0 9px 9px #17181867;
+    z-index: 20;
+    .navbar-top__left {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 0.5rem;
+      }
+      .call-wrapper,
+      .timetable-wrapper,
+      .shipping-wrapper {
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+      }
+    }
+    .navbar-top__right {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 0.5rem;
+      }
+      select {
+        border: 1px solid #b0b6b9;
+        font-family: inter, arial, sans-serif;
+        color: #171818;
+      }
+    }
+  }
+}
 .navbar {
   background-color: #124559;
   min-height: 70px;

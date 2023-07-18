@@ -25,7 +25,6 @@
   visibility: hidden;
   display: flex;
   margin-top: 20%;
-  border-radius: 50%;
   @media screen and (min-width: 800px){
     visibility: visible;
     height: 250px;
@@ -49,7 +48,6 @@
   shape-outside: content-box;
   > *{
     width: 100%;
-
   }
   @media screen and (min-width: 800px){
     margin-left: 8%;
@@ -64,8 +62,7 @@
         width: 50%;
         margin-left: 8%;
         height: 400px;
-        margin-top: 30px;
-  align-items: center;
+      align-items: center;
       }
 }
 
@@ -150,11 +147,9 @@ text-align: center;
     width: 100%;
   }
   @media screen and (min-width: 800px){
-    width: 50%;
     margin-left: 8%;
     height: 400px;
     width: 100%;
-
       }
       @media screen and (min-width: 1200px){
         width: 50%;

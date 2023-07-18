@@ -36,13 +36,18 @@
           >-{{ product.discountPercentage }}%</span
         >
         <p *ngIf="product.isDiscount" class="line">
-          <del class="price-del">{{ product.price }}€ &nbsp;</del>
+          <del class="price-del">
+            {{ product.price | currency : " " : "symbol" : "1.2-2" }}€
+          </del>
         </p>
         <p class="price-reduct" *ngIf="product.isDiscount">
-          &nbsp;{{ calculateDiscountedPrice(product) }}€
+          &nbsp; &nbsp;{{
+            calculateDiscountedPrice(product)
+              | currency : " " : "symbol" : "1.2-2"
+          }}€
         </p>
         <p class="price-no-reduct" *ngIf="!product.isDiscount">
-          {{ product.price }}€
+          {{ product.price | currency : " " : "symbol" : "1.2-2" }}€
         </p>
       </div>
     </mat-card-content>

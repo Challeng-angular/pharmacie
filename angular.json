@@ -1,9 +1,25 @@
+
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "pharmacie": {
+      "i18n": {
+        "sourceLocale": "fr",
+        "locales": {
+          "fr-EU": {  
+            "translation": "src/locale/messages.fr-EU.xlf",          
+            "baseHref": "fr/"
+          },
+
+          "en-US": {
+            "translation": "src/locale/messages.en-US.xlf",
+            "baseHref": "en/"
+          }
+        }
+      }
+      ,
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,6 +33,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": ["fr-EU"],
             "outputPath": "dist/pharmacie",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -57,15 +74,16 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production": {
-              "browserTarget": "pharmacie:build:production"
+            "fr-EU": {
+              "browserTarget": "pharmacie:build:fr-EU"
             },
-            "development": {
-              "browserTarget": "pharmacie:build:development"
+            "en-US": {
+              "browserTarget": "pharmacie:build:en-US"
             }
           },
-          "defaultConfiguration": "development"
-        },
+          "defaultConfiguration": "fr-EU"
+        }
+        ,
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {

@@ -12,13 +12,13 @@
           class="img-card"
           mat-card-sm-image
           [src]="product.imagesUrl[0]"
-          alt="image.product"
+          alt="image.product" i18n-alt="image.product"
         />
       </mat-card-title-group>
     </mat-card-header>
     <mat-card-content class="card-content">
-      <h3 class="product-name">{{ product.name }}</h3>
-      <p class="product-description">{{ product.description }}</p>
+      <h3 i18n class="product-name">{{ product.name }}</h3>
+      <p i18n class="product-description">{{ product.description }}</p>
       <div class="rating-stars">
         <ng-container class="rating-stars" *ngFor="let star of [1, 2, 3, 4, 5]">
           <mat-icon

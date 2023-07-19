@@ -26,6 +26,7 @@ import { ServicesComponent } from './components/pages/services/services.componen
 import { OverviewOrderComponent } from './components/pages/overview-order/overview-order.component';
 import { HeaderComponent } from './components/layouts/header/header.component';
 import { DetailProductComponent } from './components/pages/detail-product/detail-product.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -57,6 +58,7 @@ import { DetailProductComponent } from './components/pages/detail-product/detail
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    HttpClientModule
 
   ],
   providers: [ProductsService],

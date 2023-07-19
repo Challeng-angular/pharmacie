@@ -2,9 +2,10 @@
   <img
     src="./assets/images/illustration-pills.png"
     alt="illustration medicament"
+    i18n-alt
     class="illustration-pills"
   />
-  <h2>{{ title }}</h2>
+  <h2 i18n>{{ title }}</h2>
   <img
     [src]="
       isDisplayFirstPict
@@ -12,6 +13,7 @@
         : './assets/images/doctor-02.png'
     "
     alt="medecin"
+    i18n-alt
     class="img-doctor"
   />
 </div>

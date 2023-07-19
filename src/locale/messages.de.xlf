@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1737753151350322492" datatype="html">
+        <source><x id="PH" equiv-text="this.title"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4864786905735729237" datatype="html">
+        <source>La pharmacie Dupont à votre service</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/bloc-presentation/bloc-presentation.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8950742586798415042" datatype="html">
+        <source> Avec la pharmacie Dupont prenez rendez-vous et commandez sur WhatsApp </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/bloc-presentation/bloc-presentation.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="993639890356421958" datatype="html">
+        <source>whatsapp icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/bloc-presentation/bloc-presentation.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9199677421881026415" datatype="html">
+        <source>WhatsApp</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/bloc-presentation/bloc-presentation.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1525219148800834590" datatype="html">
+        <source>illustration medicament</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/bloc-title/bloc-title.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ title }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/bloc-title/bloc-title.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-details/card-details.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card/card.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card/card.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6327468296592495526" datatype="html">
+        <source>medecin</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/bloc-title/bloc-title.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8338404248800524904" datatype="html">
+        <source>image.product</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-details/card-details.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-details/card-details.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card/card.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2080018164290586021" datatype="html">
+        <source> Nous serions ravis de répondre à toutes vos questions et demandes de renseignements.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Veuillez remplir le formulaire ci-dessous et nous vous contacterons dans les plus brefs délais. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">2,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="300718399630505224" datatype="html">
+        <source> Prénom est <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Obligatoire<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6805916714036328557" datatype="html">
+        <source> NOM est <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Obligatoire<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="549664838385128884" datatype="html">
+        <source> Adresse email est <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Obligatoire<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2927348342280369145" datatype="html">
+        <source> Le message de contact est <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Obligatoire<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5075858773567656789" datatype="html">
+        <source><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon
+              aria-hidden=&quot;false&quot;
+              aria-label=&quot;icone envoyer&quot;
+              fontIcon=&quot;send&quot;
+            &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/> Envoyer </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">79,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7882889822254422144" datatype="html">
+        <source>pharmacienne</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1881884248044466170" datatype="html">
+        <source>PHARMACIE DUPONT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1903415327358383165" datatype="html">
+        <source>2 rue de la Poste</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5212950325110080884" datatype="html">
+        <source>74000 Annecy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6664552719064221243" datatype="html">
+        <source>CONTACT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6294589967844136548" datatype="html">
+        <source> 04 50 50 50 50 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8168284541175831689" datatype="html">
+        <source> contact@dupont.fr </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6208147840563841641" datatype="html">
+        <source>LANGUES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5344923348376098322" datatype="html">
+        <source>NOUS REJOINDRE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6477125657797032707" datatype="html">
+        <source>twitter logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2196357038688863106" datatype="html">
+        <source>facebook logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8021025655012630094" datatype="html">
+        <source>whatsapp logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2828245251580745639" datatype="html">
+        <source>Conditions générales de vente</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7557463558991948962" datatype="html">
+        <source>Conditions générales d&apos;utilisation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/footer/footer.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9084885127601930456" datatype="html">
+        <source>logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/header/header.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <!---->
+      <trans-unit id="6227048808230618479" datatype="html">
+        <source>Pharmacie Dupont</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/header/header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7708270344948043036" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ menuHeaderItem.label }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/header/header.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/header/header.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7002874192289015213" datatype="html">
+        <source>Sélectionnez une catégorie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3813039128497951635" datatype="html">
+        <source>icone telephone</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3251745309480196227" datatype="html">
+        <source>Service client: 02 03 04 05 06</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1971898257285008058" datatype="html">
+        <source>Lundi - Vendredi : 9h - 12h30 / 14h - 18h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1824900132806942388" datatype="html">
+        <source>Livraison en 24h/48h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1067733998678434565" datatype="html">
+        <source>Langue: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2219810385897343218" datatype="html">
+        <source>FR</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3072792531627770201" datatype="html">
+        <source>DE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4677726785527621059" datatype="html">
+        <source>EN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7876495514797267494" datatype="html">
+        <source>logo pharmacie Durant</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6023272033845189818" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ menuItem.text }}"/> <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div *ngIf=&quot;isLast&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;./assets/images/cart-icon-navbar.svg&quot; alt=&quot;icone panier&quot; i18n-alt /&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">42,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1368006220408102824" datatype="html">
+        <source>icone panier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4260397882598728478" datatype="html">
+        <source><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/> <x id="INTERPOLATION" equiv-text="{{ menuItem.icon }}"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
+        &gt;"/><x id="INTERPOLATION_1" equiv-text="{{ isLast ? &quot;Panier&quot; : menuItem.text }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layouts/navbar/navbar.component.html</context>
+          <context context-type="linenumber">60,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9005499510506254710" datatype="html">
+        <source>produits avene</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/newsletters/newsletters.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1875696395079934153" datatype="html">
+        <source>Nouveautés &amp; Promos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/newsletters/newsletters.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1197661151061456141" datatype="html">
+        <source>Recevez les Nouveautés et Offres Spéciales en avant-première !</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/newsletters/newsletters.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="362850558672783761" datatype="html">
+        <source> Abonnez-vous </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/newsletters/newsletters.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6843185411599727853" datatype="html">
+        <source>drapeau suisse</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/about-us/about-us.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6228810171186928057" datatype="html">
+        <source>Qui sommes nous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/about-us/about-us.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8583696182897171854" datatype="html">
+        <source> La pharmacie de la mairie a été fondée en 1866 à Montreux. Le propriétaire était le Dr Dupont et la pharmacie s’appelait Pharmacie Dupont,English Pharmacy &amp; Deutsche Apotheke.Au bénéfice d’un savoir-faire d’entreprise, acquis grâce à plus de dix ans d’expérience, chaque employée de la Pharmacie du Palace saura vous conseiller au mieux selon vos demandes. Nous proposons toute une gamme de produits de première qualité Suisse. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/about-us/about-us.component.html</context>
+          <context context-type="linenumber">21,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5637875733156006596" datatype="html">
+        <source>Notre vision</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/about-us/about-us.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6698401250398950659" datatype="html">
+        <source> Nous sommes à votre écoute et fournissons un service qui va au-delà de la simple vente,dans la plus grande discrétion et le respect du client. Nous sommes spécialisés dans la vente de cosmétiques exclusifs et de médecines naturelles, fabriquées en Suisse notamment. Il est également possible de passer des commandes par mail ou WhatsApp. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/about-us/about-us.component.html</context>
+          <context context-type="linenumber">38,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4280487287598361100" datatype="html">
+        <source>image pot de miel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/about-us/about-us.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2536107012273165664" datatype="html">
+        <source>CONDITIONS GENERALES D&apos;UTILISATION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4524218475676822166" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span  class=&quot;font-italic&quot;&gt;"/>En vigueur au <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span  class=&quot;font-italic&quot;&gt;"/>14/07/2023<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2360998617300224630" datatype="html">
+        <source> Les présentes conditions générales d&apos;utilisation (dites &quot;<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong &gt;"/>CGU<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>&quot;) ont pour objet l&apos;encadrement juridique des modalités de mise à disposition du site et des services par Pharmacie Dupont et de définir les conditions d&apos;accès et d&apos;utilisation des services par &quot; <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong &gt;"/>l&apos;Utilisateur<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>&quot;. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">10,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5544993897773608588" datatype="html">
+        <source> Les présentes CGU sont accessibles sur le site à la rubrique &quot;<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>CGU<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>&quot;. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4460990322838524677" datatype="html">
+        <source> Toute inscription ou utilisation du site implique l&apos;acceptation sans aucune réserve ni restriction des présentes CGU par l&apos;utilisateur. Lors de l&apos;inscription sur le site via le Formulaire d&apos;inscription, chaque utilisateur accepte expressément les présentes CGU en cochant la case précédant le texte suivant : &quot; Je reconnais avoir lu et compris les CGU et je les accepte &quot;. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">22,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="290340038799082968" datatype="html">
+        <source> En cas de non-acceptation des CGU stipulées dans le présent contrat, l&apos;Utilisateur se doit de renoncer à l&apos;accès des services proposés par le site. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">30,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3616493214699055719" datatype="html">
+        <source> https://www.pharmacie-dupont-studi.ch se réserve le droit de modifier unilatéralement et à tout moment le contenu des présentes CGU. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">35,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2915658377823461773" datatype="html">
+        <source>Article 1 : Les mentions légales</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5598635925731583657" datatype="html">
+        <source> L&apos;édition du site https://www.pharmacie-dupont-studi.ch est assurée par la Société sarl Pharmacie Dupont au capital de 500000 euros, immatriculée au RCS de Montreux sous le numéro 12345678, dont le siège social est situé au 2 rue de la paix 1820 Montreux </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">40,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3174608021502215699" datatype="html">
+        <source>Numéro de téléphone 0102030405</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2758969215721787607" datatype="html">
+        <source>Adresse e-mail : contact@pharmacie-dupont-studi.ch.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9062947210127298043" datatype="html">
+        <source>Le Directeur de la publication est : Pierre Dupont</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6281926264248940935" datatype="html">
+        <source> L&apos;hébergeur du site https://www.pharmacie-dupont-studi.ch est la société ovh, dont le siège social est situé au SAS, avec le numéro de téléphone : 0102030405. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">49,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4124142049645899800" datatype="html">
+        <source>ARTICLE 2 : Accès au site</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7960565235673607437" datatype="html">
+        <source> Le site https://www.pharmacie-dupont-studi.ch permet à l&apos;Utilisateur un accès gratuit aux services suivants : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">55,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3701544266463851897" datatype="html">
+        <source>Le site internet propose les services suivants :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4335848959008457119" datatype="html">
+        <source>vente de produits parapharmacie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4622018319156712451" datatype="html">
+        <source> Le site est accessible gratuitement en tout lieu à tout Utilisateur ayant un accès à Internet. Tous les frais supportés par l&apos;Utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">61,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1080545850733148819" datatype="html">
+        <source> L&apos;Utilisateur non membre n&apos;a pas accès aux services réservés. Pour cela, il doit s&apos;inscrire en remplissant le formulaire. En acceptant de s&apos;inscrire aux services réservés, l&apos;Utilisateur membre s&apos;engage à fournir des informations sincères et exactes concernant son état civil et ses coordonnées, notamment son adresse email. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">67,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1343049915991426058" datatype="html">
+        <source> Pour accéder aux services, l&apos;Utilisateur doit ensuite s&apos;identifier à l&apos;aide de son identifiant et de son mot de passe qui lui seront communiqués après son inscription. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">74,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6565210783245752871" datatype="html">
+        <source> Tout Utilisateur membre régulièrement inscrit pourra également solliciter sa désinscription en se rendant à la page dédiée sur son espace personnel. Celle-ci sera effective dans un délai raisonnable. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1141912859407964663" datatype="html">
+        <source> Tout événement dû à un cas de force majeure ayant pour conséquence un dysfonctionnement du site ou serveur et sous réserve de toute interruption ou modification en cas de maintenance, n&apos;engage pas la responsabilité de https://www.pharmacie-dupont-studi.ch. Dans ces cas, l&apos;Utilisateur accepte ainsi ne pas tenir rigueur à l&apos;éditeur de toute interruption ou suspension de service, même sans préavis. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">84,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7381870269647470096" datatype="html">
+        <source> L&apos;Utilisateur a la possibilité de contacter le site par messagerie électronique à l&apos;adresse email de l&apos;éditeur communiqué à l&apos;ARTICLE 1. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">92,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3421989340742933936" datatype="html">
+        <source> Le site assure à l&apos;Utilisateur une collecte et un traitement d&apos;informations personnelles dans le respect de la vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l&apos;informatique, aux fichiers et aux libertés. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">97,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5144521480635692491" datatype="html">
+        <source> En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978, l&apos;Utilisateur dispose d&apos;un droit d&apos;accès, de rectification, de suppression et d&apos;opposition de ses données personnelles. L&apos;Utilisateur exerce ce droit : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">103,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1725813868324586215" datatype="html">
+        <source> Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son...) font l&apos;objet d&apos;une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d&apos;auteur. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">110,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7223308116435362039" datatype="html">
+        <source> L&apos;Utilisateur doit solliciter l&apos;autorisation préalable du site pour toute reproduction, publication, copie des différents contenus. Il s&apos;engage à une utilisation des contenus du site dans un cadre strictement privé, toute utilisation à des fins commerciales et publicitaires est strictement interdite. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">115,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7847142632321547683" datatype="html">
+        <source> Toute représentation totale ou partielle de ce site par quelque procédé que ce soit, sans l&apos;autorisation expresse de l&apos;exploitant du site Internet constituerait une contrefaçon sanctionnée par l&apos;article L 335-2 et suivants du Code de la propriété intellectuelle. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">122,127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6817419865847903467" datatype="html">
+        <source> Il est rappelé conformément à l&apos;article L122-5 du Code de propriété intellectuelle que l&apos;Utilisateur qui reproduit, copie ou publie le contenu protégé doit citer l&apos;auteur et sa source. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">128,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4272207558933834207" datatype="html">
+        <source> Les sources des informations diffusées sur le site https://www.pharmacie-dupont-studi.ch sont réputées fiables mais le site ne garantit pas qu&apos;il soit exempt de défauts, d&apos;erreurs ou d&apos;omissions. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">134,138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7108189023371932885" datatype="html">
+        <source> Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site https://www.pharmacie-dupont-studi.ch ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenue responsable de l&apos;utilisation et de l&apos;interprétation de l&apos;information contenue dans ce site. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">139,147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="131682329410950434" datatype="html">
+        <source> L&apos;Utilisateur s&apos;assure de garder son mot de passe secret. Toute divulgation du mot de passe, quelle que soit sa forme, est interdite. Il assume les risques liés à l&apos;utilisation de son identifiant et mot de passe. Le site décline toute responsabilité. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">148,153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3529584596746688569" datatype="html">
+        <source> Le site https://www.pharmacie-dupont-studi.ch ne peut être tenu pour responsable d&apos;éventuels virus qui pourraient infecter l&apos;ordinateur ou tout matériel informatique de l&apos;Internaute, suite à une utilisation, à l&apos;accès, ou au téléchargement provenant de ce site. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">154,159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6148757758249581023" datatype="html">
+        <source> La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d&apos;un tiers. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">160,163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1366574727800793628" datatype="html">
+        <source> Des liens hypertextes peuvent être présents sur le site. L&apos;Utilisateur est informé qu&apos;en cliquant sur ces liens, il sortira du site https://www.pharmacie-dupont-studi.ch. Ce dernier n&apos;a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">165,171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1096919131969963683" datatype="html">
+        <source> L&apos;Utilisateur est informé que lors de ses visites sur le site, un cookie peut s&apos;installer automatiquement sur son logiciel de navigation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">173,176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1717694764451407806" datatype="html">
+        <source> Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l&apos;ordinateur de l&apos;Utilisateur par votre navigateur et qui sont nécessaires à l&apos;utilisation du site https://www.pharmacie-dupont-studi.ch. Les cookies ne contiennent pas d&apos;information personnelle et ne peuvent pas être utilisés pour identifier quelqu&apos;un. Un cookie contient un identifiant unique, généré aléatoirement et donc anonyme. Certains cookies expirent à la fin de la visite de l&apos;Utilisateur, d&apos;autres restent. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">177,185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4291137659239027757" datatype="html">
+        <source> L&apos;information contenue dans les cookies est utilisée pour améliorer le site https://www.pharmacie-dupont-studi.ch. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">186,189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1285119322175721290" datatype="html">
+        <source>En naviguant sur le site, L&apos;Utilisateur les accepte.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2150536487721485492" datatype="html">
+        <source> L&apos;Utilisateur pourra désactiver ces cookies par l&apos;intermédiaire des paramètres figurant au sein de son logiciel de navigation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">191,194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7620846792928971607" datatype="html">
+        <source> La législation française s&apos;applique au présent contrat. En cas d&apos;absence de résolution amiable d&apos;un litige né entre les parties, les tribunaux français seront seuls compétents pour en connaître. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">196,200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3804792342336426143" datatype="html">
+        <source> Pour toute question relative à l&apos;application des présentes CGU, vous pouvez joindre l&apos;éditeur aux coordonnées inscrites à l&apos;ARTICLE 1. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgu/cgu.component.html</context>
+          <context context-type="linenumber">201,204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5750107548434154058" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/>CONDITIONS GENERALES DE VENTE<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6351747626855375234" datatype="html">
+        <source> Les présentes Conditions Générales de Vente (dites « CGV ») s&apos;appliquent, sans restriction ni réserve à l&apos;ensemble des ventes conclues par le Vendeur auprès d&apos;acheteurs non professionnels (« Les Clients ou le Client »), désirant acquérir les produits proposés à la vente (« Les Produits ») par le Vendeur sur le site https://www.pharmacie-dupont-studi.ch. Les Produits proposés à la vente sur le site sont les suivants : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">11,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5906249259543866280" datatype="html">
+        <source>produits parapharmacies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3584594491567916978" datatype="html">
+        <source> Les caractéristiques principales des Produits et notamment les spécifications, illustrations et indications de dimensions ou de capacité des Produits, sont présentées sur le site https://www.pharmacie-dupont-studi.ch ce dont le client est tenu de prendre connaissance avant de commander. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6355606729063148874" datatype="html">
+        <source> Le choix et l&apos;achat d&apos;un Produit sont de la seule responsabilité du Client. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8206672690840490971" datatype="html">
+        <source> Les offres de Produits s&apos;entendent dans la limite des stocks disponibles, tels que précisés lors de la passation de la commande. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">31,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6692609910639124933" datatype="html">
+        <source> Ces CGV sont accessibles à tout moment sur le site https://www.pharmacie-dupont-studi.ch et prévaudront sur toute autre document. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">35,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3598903982557812024" datatype="html">
+        <source> Le Client déclare avoir pris connaissance des présentes CGV et les avoir acceptées en cochant la case prévue à cet effet avant la mise en œuvre de la procédure de commande en ligne du site https://www.pharmacie-dupont-studi.ch. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">40,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4569726457575799420" datatype="html">
+        <source> Sauf preuve contraire, les données enregistrées dans le système informatique du Vendeur constituent la preuve de l&apos;ensemble des transactions conclues avec le Client. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">46,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="121425347609661601" datatype="html">
+        <source>Les coordonnées du Vendeur sont les suivantes :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6662081674815155759" datatype="html">
+        <source>Pharmacie Dupont, SARL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2990419540366512485" datatype="html">
+        <source>Capital social de 500000 euros</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1632862987492888754" datatype="html">
+        <source>Immatriculé au RCS de montreux, sous le numéro 123456789</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="873107109597906046" datatype="html">
+        <source>2 rue de la paix 1820 Montreux</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">638</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1962625296692661966" datatype="html">
+        <source>Email : contact@pharmacie-dupont-studi.ch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="956413612935596612" datatype="html">
+        <source>Téléphone : 0102030405</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6622227672148367942" datatype="html">
+        <source> Les Produits présentés sur le site https://www.pharmacie-dupont-studi.ch sont proposés à la vente pour les territoires suivants : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2261286801265405465" datatype="html">
+        <source>Suisse,France,Allemagne,Grande Bretagne,Italie,Belgique.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="912640879951523072" datatype="html">
+        <source> En cas de commande vers un pays autre que la France métropolitaine, le Client est l&apos;importateur du ou des Produits concernés. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">63,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1184760212620952760" datatype="html">
+        <source> Pour tous les Produits expédiés hors Union européenne et DOM-TOM, le prix sera calculé hors taxes automatiquement sur la facture. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">67,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1552292256790585503" datatype="html">
+        <source> Des droits de douane ou autres taxes locales ou droits d&apos;importation ou taxes d&apos;état sont susceptibles d&apos;être exigibles. Ils seront à la charge et relèvent de la seule responsabilité du Client. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">71,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3027745415849220922" datatype="html">
+        <source> Les Produits sont fournis aux tarifs en vigueur figurant sur le site https://www.pharmacie-dupont-studi.ch, lors de l&apos;enregistrement de la commande par le Vendeur. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">77,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8469018085629508107" datatype="html">
+        <source>Les prix sont exprimés en Euros, HT et TTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5593406277494079643" datatype="html">
+        <source> Les tarifs tiennent compte d&apos;éventuelles réductions qui seraient consenties par le Vendeur sur le site https://www.pharmacie-dupont-studi.ch. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">83,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5170877972446358456" datatype="html">
+        <source> Ces tarifs sont fermes et non révisables pendant leur période de validité mais le Vendeur se réserve le droit, hors période de validité, d&apos;en modifier les prix à tout moment. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">88,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8590725390086039479" datatype="html">
+        <source> Les prix ne comprennent pas les frais de traitement, d&apos;expédition, de transport et de livraison, qui sont facturés en supplément, dans les conditions indiquées sur le site et calculés préalablement à la passation de la commande. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">93,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8505265593096539835" datatype="html">
+        <source> Le paiement demandé au Client correspond au montant total de l&apos;achat, y compris ces frais. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">99,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6701894818076767722" datatype="html">
+        <source> Une facture est établie par le Vendeur et remise au Client lors de la livraison des Produits commandés. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">103,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4392169931012891641" datatype="html">
+        <source> Il appartient au Client de sélectionner sur le site https://www.pharmacie-dupont-studi.ch les Produits qu&apos;il désire commander, selon les modalités suivantes : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">108,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4608146510073532375" datatype="html">
+        <source> le client choisi un produit qu&apos;il met dans son panier, produit qui pourra supprimer et modifier avant de valider sa commande et d accepter les présentes les conditions générales de vente. Il rentrera ensuite ses coordonnées ou se connectera à son espace et choisira son mode de livraison.Après validation des information la commande sera considérée comme définitive.. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">113,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8487548721579459364" datatype="html">
+        <source> Les offres de Produits sont valables tant qu&apos;elles sont visibles sur le site, dans la limite des stocks disponibles. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">121,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5075705424684956586" datatype="html">
+        <source> La vente ne sera considérée comme valide qu&apos;après paiement intégral du prix. Il appartient au Client de vérifier l&apos;exactitude de la commande et de signaler immédiatement toute erreur. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">125,129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1462132805678113308" datatype="html">
+        <source> Toute commande passée sur le site <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/>https://www.pharmacie-dupont-studi.ch<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>constitue la formation d&apos;un contrat conclu à distance entre le Client et le Vendeur. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">130,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4231511304875373495" datatype="html">
+        <source> Le Vendeur se réserve le droit d&apos;annuler ou de refuser toute commande d&apos;un Client avec lequel il existerait un litige relatif au paiement d&apos;une commande antérieure. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">136,140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5302188682394609381" datatype="html">
+        <source>Le Client pourra suivre l&apos;évolution de sa commande sur le site.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3479439331269839337" datatype="html">
+        <source> Afin de passer commande, le Client est invité à créer un compte (espace personnel). </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">143,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5055364728205242003" datatype="html">
+        <source> Pour ce faire, il doit s&apos;inscrire en remplissant le formulaire qui lui sera proposé au moment de sa commande et s&apos;engage à fournir des informations sincères et exactes concernant son état civil et ses coordonnées, notamment son adresse email. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">147,152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5583334399094159657" datatype="html">
+        <source> Le Client est responsable de la mise à jour des informations fournies. Il lui est précisé qu&apos;il peut les modifier en se connectant à son compte. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">153,156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6974389149546627430" datatype="html">
+        <source> Pour accéder à son espace personnel et aux historiques de commande, le Client devra s&apos;identifier à l&apos;aide de son nom d&apos;utilisateur et de son mot de passe qui lui seront communiqués après son inscription et qui sont strictement personnels. A ce titre, le Client s&apos;en interdit toute divulgation. Dans le cas contraire, il restera seul responsable de l&apos;usage qui en sera fait. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">157,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4376462184276760149" datatype="html">
+        <source> Le Client pourra également solliciter sa désinscription en se rendant à la page dédiée sur son espace personnel ou envoyant un email à : contact@pharmacie-dupont-studi.ch. Celle-ci sera effective dans un délai raisonnable. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">165,170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4721693882432379585" datatype="html">
+        <source> En cas de non respect des conditions générales de vente et/ou d&apos;utilisation, le site https://www.pharmacie-dupont-studi.ch aura la possibilité de suspendre voire de fermer le compte d&apos;un client après mise en demeure adressée par voie électronique et restée sans effet. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">171,176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8126765473110691168" datatype="html">
+        <source> Toute suppression de compte, quel qu&apos;en soit le motif, engendre la suppression pure et simple de toutes informations personnelles du Client. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">177,180</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5036699886702780979" datatype="html">
+        <source> Tout événement dû à un cas de force majeure ayant pour conséquence un dysfonctionnement du site ou serveur et sous réserve de toute interruption ou modification en cas de maintenance, n&apos;engage pas la responsabilité du Vendeur. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">181,186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7247593848298240356" datatype="html">
+        <source> La création du compte entraine l&apos;acceptation des présentes conditions générales de vente. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">187,190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8109693240852285840" datatype="html">
+        <source> Le prix est payé par voie de paiement sécurisé, selon les modalités suivantes : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">192,195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6114703491981597627" datatype="html">
+        <source> Le prix est payable comptant, en totalité au jour de la livraison des Produits, intervenant selon les conditions définies à l&apos;article « Livraisons » et comme indiqué sur la facture remise au Client. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">199,203</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6474534644173607439" datatype="html">
+        <source> Les données de paiement sont échangées en mode crypté grâce au protocole défini par le prestataire de paiement agréé intervenant pour les transactions bancaires réalisée sur le site https://www.pharmacie-dupont-studi.ch. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">204,209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27274207798895119" datatype="html">
+        <source> Les paiements effectués par le Client ne seront considérés comme définitifs qu&apos;après encaissement effectif par le Vendeur des sommes dues. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">210,213</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3738936957247116536" datatype="html">
+        <source> Le Vendeur ne sera pas tenu de procéder à la délivrance des Produits commandés par le Client si celui-ci ne lui en paye pas le prix en totalité dans les conditions ci-dessus indiquées. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">214,218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8762552706044060002" datatype="html">
+        <source> Les Produits commandés par le Client seront livrés en France métropolitaine ou dans la/les zones suivantes : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">220,223</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5883138903099096034" datatype="html">
+        <source>Suisse, France, Allemagne, Grande Bretagne, italie, Belgique.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7441005451076593690" datatype="html">
+        <source> Les livraisons interviennent dans un délai de 3 jours à l&apos;adresse indiquée par le Client lors de sa commande sur le site. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">225,228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1160013782675304820" datatype="html">
+        <source> La livraison est constituée par le transfert au Client de la possession physique ou du contrôle du Produit. Sauf cas particulier ou indisponibilité d&apos;un ou plusieurs Produits, les Produits commandés seront livrés en une seule fois. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">229,234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1866044835807470070" datatype="html">
+        <source> Le Vendeur s&apos;engage à faire ses meilleurs efforts pour livrer les produits commandés par le Client dans les délais ci-dessus précisés. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">235,238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7546162247088777474" datatype="html">
+        <source> Si les Produits commandés n&apos;ont pas été livrés dans un délai de 7 jours après la date indicative de livraison, pour toute autre cause que la force majeure ou le fait du Client, la vente pourra être résolue à la demande écrite du Client dans les conditions prévues aux articles L 216-2, L 216-3 et L241-4 du Code de la consommation. Les sommes versées par le Client lui seront alors restituées au plus tard dans les quatorze jours qui suivent la date de dénonciation du contrat, à l&apos;exclusion de toute indemnisation ou retenue. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">239,248</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1600759601081460400" datatype="html">
+        <source> Le Vendeur propose également la livraison gratuite dans l&apos;un de ses magasins accessibles via le lien ou les localisations suivantes : 2 rue de la paix, 1820 Montreux </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">249,253</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5902566511902433321" datatype="html">
+        <source> En cas de demande particulière du Client concernant les conditions d&apos;emballage ou de transport des produits commandés, dûment acceptées par écrit par le Vendeur, les coûts y liés feront l&apos;objet d&apos;une facturation spécifique complémentaire, sur devis préalablement accepté par écrit par le Client. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">254,260</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2888634433071236769" datatype="html">
+        <source> Le Client est tenu de vérifier l&apos;état des produits livrés. Il dispose d&apos;un délai de <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/>#254 Délai maximal pour...<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> à compter de la livraison pour formuler des réclamations par<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/>courrier, mail<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, accompagnées de tous les justificatifs y afférents (photos notamment). Passé ce délai et à défaut d&apos;avoir respecté ces formalités, les Produits seront réputés conformes et exempts de tout vice apparent et aucune réclamation ne pourra être valablement acceptée par le Vendeur. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">261,272</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3662250091297996499" datatype="html">
+        <source> Le Vendeur remboursera ou remplacera dans les plus brefs délais et à ses frais, les Produits livrés dont les défauts de conformité ou les vices apparents ou cachés auront été dûment prouvés par le Client, dans les conditions prévues aux articles L 217-4 et suivants du Code de la consommation et celles prévues aux présentes CGV. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">273,279</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="415560255142292490" datatype="html">
+        <source> Le transfert des risques de perte et de détérioration s&apos;y rapportant, ne sera réalisé qu&apos;au moment où le Client prendra physiquement possession des Produits. Les Produits voyagent donc aux risques et périls du Vendeur sauf lorsque le Client aura lui-même choisi le transporteur. A ce titre, les risques sont transférés au moment de la remise du bien au transporteur. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">280,286</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2661836032389868276" datatype="html">
+        <source> Le transfert de propriété des Produits du Vendeur au Client ne sera réalisé qu&apos;après complet paiement du prix par ce dernier, et ce quelle que soit la date de livraison desdits Produits. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">288,292</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5380273342235108645" datatype="html">
+        <source> Compte tenu de la nature des Produits vendus, les commandes passées par le Client ne bénéficient pas du droit de rétractation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">294,297</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5512962310337857574" datatype="html">
+        <source> Le contrat est donc conclu de façon définitive dès la passation de la commande par le Client selon les modalités précisées aux présentes CGV. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">298,301</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="747935562645075270" datatype="html">
+        <source>Les Produits fournis par le Vendeur bénéficient :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">304</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4174702686785761172" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic-underline&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">319</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9033123540905323884" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic-underline&quot;&gt;"/> Dispositions relatives aux garanties légales <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">322,324</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1951902076706198021" datatype="html">
+        <source>Article L217-4 du Code de la consommation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">326</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3942389470551826777" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> « Le vendeur est tenu de livrer un bien conforme au contrat et répond des défauts de conformité existant lors de la délivrance. Il répond également des défauts de conformité résultant de l&apos;emballage, des instructions de montage ou de l&apos;installation lorsque celle-ci a été mise à sa charge par le contrat ou a été réalisée sous sa responsabilité. » <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">328,334</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1150852818658369886" datatype="html">
+        <source>Article L217-5 du Code de la consommation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">336</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6412469971722583576" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/>« Le bien est conforme au contrat :<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">338</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6133352953159290367" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> 1° S&apos;il est propre à l&apos;usage habituellement attendu d&apos;un bien semblable et, le cas échéant : <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">341,344</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3699108739391250196" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> - s&apos;il correspond à la description donnée par le vendeur et possède les qualités que celui-ci a présentées à l&apos;acheteur sous forme d&apos;échantillon ou de modèle; <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">347,351</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3852548672236382826" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> - s&apos;il présente les qualités qu&apos;un acheteur peut légitimement attendre eu égard aux déclarations publiques faites par le vendeur, par le producteur ou par son représentant, notamment dans la publicité ou l&apos;étiquetage; <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">354,359</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4389865148594397373" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> 2° Ou s&apos;il présente les caractéristiques définies d&apos;un commun accord par les parties ou est propre à tout usage spécial recherché par l&apos;acheteur, porté à la connaissance du vendeur et que ce dernier a accepté. » <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">362,366</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6460806500857376915" datatype="html">
+        <source>Article L217-12 du Code de la consommation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">368</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7191540893210882695" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> « L&apos;action résultant du défaut de conformité se prescrit par deux ans à compter de la délivrance du bien. » <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">370,373</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7476154721820858327" datatype="html">
+        <source>Article 1641 du Code civil.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">375</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5063485113643497539" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> « Le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue qui la rendent impropre à l&apos;usage auquel on la destine, ou qui diminuent tellement cet usage, que l&apos;acheteur ne l&apos;aurait pas acquise, ou n&apos;en aurait donné qu&apos;un moindre prix, s&apos;il les avait connus. » <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">377,383</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7404062685380970229" datatype="html">
+        <source>Article 1648 alinéa 1er du Code civil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">385</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3222867137592072801" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> « L&apos;action résultant des vices rédhibitoires doit être intentée par l&apos;acquéreur dans un délai de deux ans à compter de la découverte du vice. » <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">387,391</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8306261607666969319" datatype="html">
+        <source>Article L217-16 du Code de la consommation.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">393</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5394244040064854707" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-italic&quot;&gt;"/> « Lorsque l&apos;acheteur demande au vendeur, pendant le cours de la garantie commerciale qui lui a été consentie lors de l&apos;acquisition ou de la réparation d&apos;un bien meuble, une remise en état couverte par la garantie, toute période d&apos;immobilisation d&apos;au moins sept jours vient s&apos;ajouter à la durée de la garantie qui restait à courir. Cette période court à compter de la demande d&apos;intervention de l&apos;acheteur ou de la mise à disposition pour réparation du bien en cause, si cette mise à disposition est postérieure à la demande d&apos;intervention. »<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
+      &gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">395,404</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="545067557213557207" datatype="html">
+        <source> Afin de faire valoir ses droits, le Client devra informer le Vendeur, par écrit (mail ou courrier), de la non-conformité des Produits ou de l&apos;existence des vices cachés à compter de leur découverte. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">406,410</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8570396052125164715" datatype="html">
+        <source> Le Vendeur remboursera, remplacera ou fera réparer les Produits ou pièces sous garantie jugés non conformes ou défectueux. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">411,414</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3425850980894322091" datatype="html">
+        <source> Les frais d&apos;envoi seront remboursés sur la base du tarif facturé et les frais de retour seront remboursés sur présentation des justificatifs. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">415,418</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9040850347864130745" datatype="html">
+        <source> Les remboursements, remplacements ou réparations des Produits jugés non conformes ou défectueux seront effectués dans les meilleurs délais et au plus tard dans les 7 jours jours suivant la constatation par le Vendeur du défaut de conformité ou du vice caché. Ce remboursement pourra être fait par virement ou chèque bancaire. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">419,425</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="371182465878321020" datatype="html">
+        <source> La responsabilité du Vendeur ne saurait être engagée dans les cas suivants : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">426,429</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6778986445441369837" datatype="html">
+        <source> La garantie du Vendeur est, en tout état de cause, limitée au remplacement ou au remboursement des Produits non conformes ou affectés d&apos;un vice. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">445,448</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4597625897492206870" datatype="html">
+        <source> Le Client est informé que la collecte de ses données à caractère personnel est nécessaire à la vente des Produits et à leur délivrance / livraison, confiées au Vendeur. Ces données à caractère personnel sont récoltées uniquement pour l&apos;exécution du contrat de vente. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">450,455</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3136483629964506585" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/> 9.1 Collecte des données à caractère personnel <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">457,459</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3768649117925222467" datatype="html">
+        <source> Les données à caractère personnel qui sont collectées sur le site https://www.pharmacie-dupont-studi.ch sont les suivantes : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">461,464</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2888751908322146109" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/>Ouverture de compte<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">465</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6161198316992960420" datatype="html">
+        <source>Lors de la création du compte Client / utilisateur :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">466</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1819851631910274606" datatype="html">
+        <source> Noms, prénoms, adresse postale, numéro de téléphone et adresse e-mail. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">467,469</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6502031914106731474" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/>Paiement<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">470</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6416452147388905169" datatype="html">
+        <source> Dans le cadre du paiement des Produits proposés sur le site https://www.pharmacie-dupont-studi.ch, celui-ci enregistre des données financières relatives au compte bancaire ou à la carte de crédit du Client / utilisateur. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">471,476</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="152020299926106996" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/> 9.2 Destinataires des données à caractère personnel <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">478,480</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4203466694279659176" datatype="html">
+        <source> Les données à caractère personnel sont réservées à l&apos;usage unique du Vendeur et de ses salariés. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">482,485</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1153265964821332762" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/>9.3 Responsable de traitement<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">487</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8387732141868447169" datatype="html">
+        <source> Le responsable de traitement des données est le Vendeur, au sens de la loi Informatique et libertés et à compter du 25 mai 2018 du Règlement 2016/679 sur la protection des données à caractère personnel. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">489,493</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6825359617086427434" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/>9.4 limitation du traitement<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">495</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1827212584478070544" datatype="html">
+        <source> Sauf si le Client exprime son accord exprès, ses données à caractère personnelles ne sont pas utilisées à des fins publicitaires ou marketing. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">497,500</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1743467559424419604" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/>9.5 Durée de conservation des données<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">502</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4869932645691832585" datatype="html">
+        <source> Le Vendeur conservera les données ainsi recueillies pendant un délai de 5 ans, couvrant le temps de la prescription de la responsabilité civile contractuelle applicable. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">504,508</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4805236056833194401" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/>9.6 Sécurité et confidentialité<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">510</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7445847133644459040" datatype="html">
+        <source> Le Vendeur met en œuvre des mesures organisationnelles, techniques, logicielles et physiques en matière de sécurité du numérique pour protéger les données personnelles contre les altérations, destructions et accès non autorisés. Toutefois il est à signaler qu&apos;Internet n&apos;est pas un environnement complètement sécurisé et le Vendeur ne peut garantir la sécurité de la transmission ou du stockage des informations sur Internet. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">512,519</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5756803396780234561" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-bold&quot;&gt;"/> 9.7 Mise en œuvre des droits des Clients et utilisateurs <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">521,523</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3847286335764513482" datatype="html">
+        <source> En application de la règlementation applicable aux données à caractère personnel, les Clients et utilisateurs du site https://www.pharmacie-dupont-studi.ch disposent des droits suivants : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">525,529</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4375171894435227792" datatype="html">
+        <source> En ce connectant à son compte, sur l&apos;onglet configuration du compte. . </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">536,538</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3537521476853799458" datatype="html">
+        <source> Ces droits, dès lors qu&apos;ils ne s&apos;opposent pas à la finalité du traitement, peuvent être exercé en adressant une demande par courrier ou par E-mail au Responsable de traitement dont les coordonnées sont indiquées ci-dessus. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">580,584</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6462592052291077950" datatype="html">
+        <source> Le responsable de traitement doit apporter une réponse dans un délai maximum d&apos;un mois. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">585,588</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7229436188485108618" datatype="html">
+        <source> En cas de refus de faire droit à la demande du Client, celui-ci doit être motivé. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">589,592</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7212502463754289120" datatype="html">
+        <source> Le Client est informé qu&apos;en cas de refus, il peut introduire une réclamation auprès de la CNIL (3 place de Fontenoy, 75007 PARIS) ou saisir une autorité judiciaire. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">593,597</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6639969503107879384" datatype="html">
+        <source> Le Client peut être invité à cocher une case au titre de laquelle il accepte de recevoir des mails à caractère informatifs et publicitaires de la part du Vendeur. Il aura toujours la possibilité de retirer son accord à tout moment en contactant le Vendeur (coordonnées ci-dessus) ou en suivant le lien de désabonnement. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">598,604</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1400400918427452791" datatype="html">
+        <source> Le contenu du site https://www.pharmacie-dupont-studi.ch est la propriété du Vendeur et de ses partenaires et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">606,610</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2587760088607711347" datatype="html">
+        <source> Toute reproduction totale ou partielle de ce contenu est strictement interdite et est susceptible de constituer un délit de contrefaçon. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">611,614</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="656193634608035431" datatype="html">
+        <source> Les présentes CGV et les opérations qui en découlent sont régies et soumises au droit français. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">616,619</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3593556097031977789" datatype="html">
+        <source> Les présentes CGV sont rédigées en langue française. Dans le cas où elles seraient traduites en une ou plusieurs langues étrangères, seul le texte français ferait foi en cas de litige. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">620,624</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9138048677467405712" datatype="html">
+        <source> Pour toute réclamation merci de contacter le service clientèle à l&apos;adresse postale ou mail du Vendeur indiquée à l&apos;ARTICLE 1 des présentes CGV. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">626,629</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="321248340274400300" datatype="html">
+        <source> Le Client est informé qu&apos;il peut en tout état de cause recourir à une médiation conventionnelle, auprès des instances de médiation sectorielles existantes ou à tout mode alternatif de règlement des différends (conciliation, par exemple) en cas de contestation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">630,635</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5115846055484458282" datatype="html">
+        <source>En l&apos;espèce, le médiateur désigné est</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">636</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7295796244272968952" datatype="html">
+        <source>Service Client</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">637</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="620724852329580046" datatype="html">
+        <source>https://www.pharmacie-dupont-studi.ch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">639</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8771060221979020764" datatype="html">
+        <source>E-mail : servece-reclamations@pharmacie-dupont-studi.ch.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">640</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1346350793850411927" datatype="html">
+        <source> Le Client est également informé qu&apos;il peut, également recourir à la plateforme de Règlement en Ligne des Litige (RLL) :https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.show </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">641,645</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4760717465473680296" datatype="html">
+        <source> Tous les litiges auxquels les opérations d&apos;achat et de vente conclues en application des présentes CGV et qui n&apos;auraient pas fait l&apos;objet d&apos;un règlement amiable entre le vendeur ou par médiation, seront soumis aux tribunaux compétents dans les conditions de droit commun. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/cgv/cgv.component.html</context>
+          <context context-type="linenumber">646,651</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

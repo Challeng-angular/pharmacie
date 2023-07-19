@@ -1,38 +1,39 @@
 <div class="navbar-top">
   <div class="navbar-top__left">
     <div class="call-wrapper">
-      <img src="./assets/images/phone-icon-navbar.svg" alt="icone telephone" />
-      <span>Service client: 02 03 04 05 06</span>
+      <img src="./assets/images/phone-icon-navbar.svg" alt="icone telephone" i18n-alt />
+      <span i18n>Service client: 02 03 04 05 06</span>
     </div>
     <div class="timetable-wrapper">
-      <img src="./assets/images/time-icon-navbar.svg" alt="icone telephone" />
-      <span>Lundi - Vendredi : 9h - 12h30 / 14h - 18h</span>
+      <img src="./assets/images/time-icon-navbar.svg" alt="icone telephone" i18n-alt />
+      <span i18n>Lundi - Vendredi : 9h - 12h30 / 14h - 18h</span>
     </div>
     <div class="shipping-wrapper">
       <img
         src="./assets/images/shipping-icon-navbar.svg"
         alt="icone telephone"
+        i18n-alt
       />
-      <span>Livraison en 24h/48h</span>
+      <span i18n>Livraison en 24h/48h</span>
     </div>
   </div>
   <div class="navbar-top__right">
-    <img src="./assets/images/language-icon-navbar.svg" alt="icone telephone" />
-    <label for="pet-select">Langue:&nbsp;</label>
+    <img src="./assets/images/language-icon-navbar.svg" alt="icone telephone" i18n-alt/>
+    <label i18n for="pet-select">Langue:&nbsp;</label>
     <select name="pets" id="pet-select">
-      <option value="FR">FR</option>
-      <option value="DE">DE</option>
-      <option value="EN">EN</option>
+      <option i18n value="FR">FR</option>
+      <option i18n value="DE">DE</option>
+      <option i18n value="EN">EN</option>
     </select>
   </div>
 </div>
 <mat-toolbar color="primary" class="mat-elevation-z8 navbar">
   <div class="brand" (click)="redirectToHomepage()">
-    <img src="./assets/images/logo.svg" alt="logo pharmacie Durant" />
-    <span>PHARMACIE DUPONT</span>
+    <img src="./assets/images/logo.svg" alt="logo pharmacie Durant" i18n-alt />
+    <span i18n>PHARMACIE DUPONT</span>
   </div>
   <div class="ms-auto navbar-nav">
-    <button
+    <button i18n
       *ngFor="let menuItem of menuItems; last as isLast"
       [routerLink]="menuItem.link"
       mat-button
@@ -41,7 +42,7 @@
     >
       {{ menuItem.text }}
       <div *ngIf="isLast">
-        <img src="./assets/images/cart-icon-navbar.svg" alt="icone panier" />
+        <img src="./assets/images/cart-icon-navbar.svg" alt="icone panier" i18n-alt />
       </div>
     </button>
   </div>
@@ -50,7 +51,7 @@
       <mat-icon>menu</mat-icon>
     </button>
     <mat-menu #menuRef="matMenu" class="navbar-nav-mobile">
-      <button
+      <button i18n
         *ngFor="let menuItem of menuItems; last as isLast"
         [routerLink]="menuItem.link"
         mat-menu-item

@@ -1,5 +1,5 @@
 <div id="container-form">
-  <p>
+  <p i18n>
     Nous serions ravis de répondre à toutes vos questions et demandes de
     renseignements.<br />
     Veuillez remplir le formulaire ci-dessous et nous vous contacterons dans les
@@ -15,14 +15,14 @@
           <div class="row">
             <div class="col">
               <mat-form-field class="full-width">
-                <input
+                <input i18n
                   matInput
                   placeholder="Prénom"
                   formControlName="firstName"
                 />
                 <mat-error
                   *ngIf="addressForm.controls['firstName'].hasError('required')"
-                >
+                  i18n >
                   Prénom est <strong>Obligatoire</strong>
                 </mat-error>
               </mat-form-field>
@@ -30,7 +30,7 @@
             <div class="col">
               <mat-form-field class="full-width">
                 <input matInput placeholder="Nom" formControlName="lastName" />
-                <mat-error
+                <mat-error i18n
                   *ngIf="addressForm.controls['lastName'].hasError('required')"
                 >
                   NOM est <strong>Obligatoire</strong>
@@ -42,7 +42,7 @@
             <div class="col">
               <mat-form-field class="full-width">
                 <input matInput placeholder="Email" formControlName="email" />
-                <mat-error
+                <mat-error i18n
                   *ngIf="addressForm.controls['email'].hasError('required')"
                 >
                   Adresse email est <strong>Obligatoire</strong>
@@ -58,7 +58,7 @@
                   placeholder="Message"
                   formControlName="message"
                 ></textarea>
-                <mat-error
+                <mat-error i18n
                   *ngIf="addressForm.controls['message'].hasError('required')"
                 >
                   Le message de contact est <strong>Obligatoire</strong>
@@ -74,6 +74,7 @@
             mat-raised-button
             color="primary"
             type="submit"
+            i18n
           >
             <mat-icon
               aria-hidden="false"
@@ -90,6 +91,7 @@
         id="img-form"
         src="../../../assets/images/contact-form-women.png"
         alt="pharmacienne"
+        i18n-alt
       />
     </div>
   </div>

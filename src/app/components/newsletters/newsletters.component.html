@@ -5,21 +5,23 @@
         src="./assets/images/avene-products-newsletter.jpg"
         class="newsletter__img"
         alt="produits avene"
+        i18n-alt
       />
     </div>
     <div class="newsletter__content">
-      <h2>Nouveautés & Promos</h2>
-      <p>Recevez les Nouveautés et Offres Spéciales en avant-première !</p>
+      <h2 i18n>Nouveautés & Promos</h2>
+      <p i18n>Recevez les Nouveautés et Offres Spéciales en avant-première !</p>
       <form class="newsletter-form">
         <mat-form-field class="newsletter-email-input">
           <mat-label>Email</mat-label>
-          <input matInput placeholder="Entrez votre email..." />
+          <input i18n matInput placeholder="Entrez votre email..." />
         </mat-form-field>
         <button
           mat-raised-button
           color="primary"
           type="submit"
           class="btn-newsletter"
+          i18n
         >
           Abonnez-vous
         </button>

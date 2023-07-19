@@ -27,11 +27,6 @@ export class DetailProductComponent implements OnInit {
   ) { }
 
 
-  ngOnInit(): void {
-    
-  
-    
-
-  }
+  ngOnInit(): void {}
 
 }

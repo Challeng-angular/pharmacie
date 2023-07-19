@@ -10,7 +10,7 @@
             class="miniature-card"
             *ngFor="let imageUrl of product.imagesUrl; let i = index"
           >
-            <img mat-card-sm-image [src]="imageUrl" alt="image.product" />
+            <img mat-card-sm-image [src]="imageUrl" alt="image.product" i18n-alt />
           </div>
         </div>
         <img
@@ -18,13 +18,14 @@
           mat-card-sm-image
           [src]="product.imagesUrl[0]"
           alt="image.product"
+          i18n-alt
         />
       </mat-card-title-group>
     </mat-card-header>
     <mat-card-content id="card-content">
       <div id="card-description">
         <h3 id="product-name">{{ product.name }}</h3>
-        <div>{{ product.description }}</div>
+        <div i18n >{{ product.description }}</div>
       </div>
       <div class="rating-stars">
         <ng-container *ngFor="let star of [1, 2, 3, 4, 5]" class="rating-stars">
@@ -43,12 +44,12 @@
           >-{{ product.discountPercentage }}%</span
         >
         <p *ngIf="product.isDiscount" class="line">
-          <del>{{ product.price }}€&nbsp;</del>
+          <del>{{ product.price | currency : " " : "symbol" : "1.2-2" }}€&nbsp;</del>
         </p>
         <p id="price-reduct" *ngIf="product.isDiscount">
           &nbsp;{{ calculateDiscountedPrice(product) }}€
         </p>
-        <p *ngIf="!product.isDiscount">{{ product.price }}€</p>
+        <p *ngIf="!product.isDiscount">{{ product.price | currency : " " : "symbol" : "1.2-2" }}€</p>
       </div>
 
       <button

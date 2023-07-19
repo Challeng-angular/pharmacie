@@ -1,13 +1,13 @@
 <header>
   <div class="header-top">
     <div class="header-top__logo-wrapper">
-      <img src="./assets/images/logo-header.svg" alt="logo" />
+      <img src="./assets/images/logo-header.svg" alt="logo" i18n-alt/>
     </div>
-    <p class="header-top__brand">Pharmacie Dupont</p>
+    <p i18n class="header-top__brand">Pharmacie Dupont</p>
   </div>
   <div class="header-bottom">
     <div class="header-bottom-wrapper">
-      <button
+      <button i18n
         *ngFor="let menuHeaderItem of menuHeaderItems"
         mat-button
         class="link-header"
@@ -17,10 +17,10 @@
     </div>
     <div class="select-btn-cat-wrapper" *ngIf="isSmallScreen">
       <mat-form-field class="select-btn-cat">
-        <mat-label>Sélectionnez une catégorie</mat-label>
+        <mat-label i18n>Sélectionnez une catégorie</mat-label>
         <select matNativeControl [disabled]="disableSelect.value">
           <option value="" selected></option>
-          <option *ngFor="let menuHeaderItem of menuHeaderItems" value="volvo">
+          <option i18n *ngFor="let menuHeaderItem of menuHeaderItems" value="volvo">
             {{ menuHeaderItem.label }}
           </option>
         </select>

@@ -6,16 +6,15 @@
   "projects": {
     "pharmacie": {
       "i18n": {
-        "sourceLocale": "fr",
+        "sourceLocale": "fr-CH",
         "locales": {
-          "fr-EU": {  
-            "translation": "src/locale/messages.fr-EU.xlf",          
-            "baseHref": "fr/"
-          },
-
           "en-US": {
-            "translation": "src/locale/messages.en-US.xlf",
-            "baseHref": "en/"
+            "translation": "src/locale/messages.en.xlf",
+            "baseHref": "en-US/"
+          },
+          "de-DE": {
+            "translation": "src/locale/messages.de.xlf",
+            "baseHref": "de-DE/"
           }
         }
       }
@@ -28,12 +27,13 @@
       },
       "root": "",
       "sourceRoot": "src",
+
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": ["fr-EU"],
+            "localize": ["en-US"],
             "outputPath": "dist/pharmacie",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -73,15 +73,19 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+
           "configurations": {
-            "fr-EU": {
-              "browserTarget": "pharmacie:build:fr-EU"
+            "development":{
+              "browserTarget": "pharmacie:build:development"
+            },
+            "fr": {
+              "browserTarget": "pharmacie:build:fr"
             },
             "en-US": {
               "browserTarget": "pharmacie:build:en-US"
             }
           },
-          "defaultConfiguration": "fr-EU"
+          "defaultConfiguration": "development"
         }
         ,
         "extract-i18n": {

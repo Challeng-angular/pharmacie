@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Product } from 'src/app/mock-product/product';
 import { ProductsService } from 'src/app/services/products.service';
-
 
 @Component({
   selector: 'app-detail-product',
@@ -10,28 +9,16 @@ import { ProductsService } from 'src/app/services/products.service';
   styleUrls: ['./detail-product.component.scss'],
   providers: [ProductsService],
 })
-export class DetailProductComponent implements OnInit {
+export class DetailProductComponent {
   product: Product;
-  titleList: string[] = [
-    'Détails du produit'
-  ];
+  titleList: string[] = ['Détails du produit'];
   isDoctorFirstPict: boolean = true;
   productsList: Product[];
   discountedPrices: number[];
-
 
   constructor(
     private router: Router,
     private productsService: ProductsService,
     private route: ActivatedRoute
-  ) { }
-
-
-  ngOnInit(): void {
-    
-  
-    
-
-  }
-
+  ) {}
 }

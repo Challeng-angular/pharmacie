@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent {
-
+  isDoctorFirstPict: boolean = true;
+  title: string = 'Nos Services';
 }

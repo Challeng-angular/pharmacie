@@ -1,1 +1,74 @@
-//scss ici
+.container {
+    display: flex;
+    height: auto;
+    gap: 5rem;
+
+    &:first-of-type {
+        margin-top: 4rem;
+    }
+
+    &.container-left,
+    &.container-right {
+        display: flex;
+        height: auto;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 3rem;
+        padding-inline: 2rem;
+
+        .section-right,
+        .section-left {
+            width: 50%;
+        }
+    }
+
+    .section-right .title,
+    .section-left .title {
+        margin: 0 0 3rem 0;
+        color: #48B986;
+        font-size: 3rem;
+
+        @media screen and (max-width:768px) {
+            font-size: 1.8rem;
+            text-align: center;
+        }
+    }
+
+    .section-right .description,
+    .section-left .description {
+        color: #4A5355;
+    }
+
+    &.container-left .section-right img,
+    &.container-right .section-left img {
+        width: 100%;
+        height: auto;
+        max-height: 30rem;
+        object-fit: cover;
+        border-radius: 3rem;
+
+        @media screen and (max-width: 1300px) {
+            margin-top: -3rem;
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+        &.container-left {
+            flex-direction: column;
+
+            .section-right,
+            .section-left {
+                width: 100%;
+            }
+        }
+
+        &.container-right {
+            flex-direction: column-reverse;
+
+            .section-right,
+            .section-left {
+                width: 100%;
+            }
+        }
+    }
+}

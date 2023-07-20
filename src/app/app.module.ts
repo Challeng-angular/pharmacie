@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -26,6 +27,9 @@ import { ServicesComponent } from './components/pages/services/services.componen
 import { OverviewOrderComponent } from './components/pages/overview-order/overview-order.component';
 import { HeaderComponent } from './components/layouts/header/header.component';
 import { DetailProductComponent } from './components/pages/detail-product/detail-product.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 @NgModule({
@@ -57,9 +61,20 @@ import { DetailProductComponent } from './components/pages/detail-product/detail
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+    loader: {
+      provide: TranslateLoader,
+      useFactory: HttpLoaderFactory,
+      deps: [HttpClient]
+    }
+  })
 
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
@@ -23,8 +24,11 @@ export class NavbarComponent {
 
   constructor(
     private breakpointObserver: BreakpointObserver,
-    private router: Router
-  ) {}
+    private router: Router,
+    private translate: TranslateService
+
+  ) {  translate.setDefaultLang('fr'); 
+} 
 
   ngOnInit() {
     this.breakpointSubscription = this.breakpointObserver
@@ -43,4 +47,19 @@ export class NavbarComponent {
   redirectToHomepage() {
     this.router.navigate(['/accueil']);
   }
+
+ changeLanguageEn():void{
+  this.translate.use('en');
 }
+
+changeLanguageDe():void{
+  this.translate.use('de');
+}
+changeLanguageFr():void{
+  this.translate.use('fr');
+}
+}
+
+
+
+

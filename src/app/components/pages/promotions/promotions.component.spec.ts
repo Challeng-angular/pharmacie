@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 
+
 describe('PromotionsComponent', () => {
   let component: PromotionsComponent;
   let fixture: ComponentFixture<PromotionsComponent>;

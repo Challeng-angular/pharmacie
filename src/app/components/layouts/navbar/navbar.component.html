@@ -2,44 +2,45 @@
   <div class="navbar-top__left">
     <div class="call-wrapper">
       <img src="./assets/images/phone-icon-navbar.svg" alt="icone telephone" />
-      <span>Service client: 02 03 04 05 06</span>
+      <span>{{ "app.serviceClient" | translate }} </span>
     </div>
     <div class="timetable-wrapper">
       <img src="./assets/images/time-icon-navbar.svg" alt="icone telephone" />
-      <span>Lundi - Vendredi : 9h - 12h30 / 14h - 18h</span>
+      <span>{{ "app.horaire" | translate }} </span>
     </div>
     <div class="shipping-wrapper">
       <img
         src="./assets/images/shipping-icon-navbar.svg"
         alt="icone telephone"
       />
-      <span>Livraison en 24h/48h</span>
+      <span>{{"app.livraison" | translate }}</span>
     </div>
   </div>
   <div class="navbar-top__right">
     <img src="./assets/images/language-icon-navbar.svg" alt="icone telephone" />
-    <label for="pet-select">Langue:&nbsp;</label>
-    <select name="pets" id="pet-select">
-      <option value="FR">FR</option>
-      <option value="DE">DE</option>
-      <option value="EN">EN</option>
+    <label for="lang">Langue:&nbsp;</label>
+    <select  name="lang" id="lang">
+      <option (click)="changeLanguageFr()" value="FR">FR</option>
+      <option (click)="changeLanguageDe()" value="DE">DE</option>
+      <option (click)="changeLanguageEn()" value="EN">EN</option>
     </select>
+    
   </div>
 </div>
 <mat-toolbar color="primary" class="mat-elevation-z8 navbar">
   <div class="brand" (click)="redirectToHomepage()">
     <img src="./assets/images/logo.svg" alt="logo pharmacie Durant" />
-    <span>PHARMACIE DUPONT</span>
+    <span>{{ "app.logo" | translate }} </span>
   </div>
   <div class="ms-auto navbar-nav">
     <button
-      *ngFor="let menuItem of menuItems; last as isLast"
-      [routerLink]="menuItem.link"
+      *ngFor="let menuItemNav of menuItems; last as isLast"
+      [routerLink]="menuItemNav.link"
       mat-button
       class="nav-link"
       routerLinkActive="active"
     >
-      {{ menuItem.text }}
+    {{ menuItemNav.text | translate }}
       <div *ngIf="isLast">
         <img src="./assets/images/cart-icon-navbar.svg" alt="icone panier" />
       </div>

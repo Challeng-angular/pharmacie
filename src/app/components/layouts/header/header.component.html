@@ -3,7 +3,7 @@
     <div class="header-top__logo-wrapper">
       <img src="./assets/images/logo-header.svg" alt="logo" />
     </div>
-    <p class="header-top__brand">Pharmacie Dupont</p>
+    <p class="header-top__brand">{{"app.titleHeader" | translate }}</p>
   </div>
   <div class="header-bottom">
     <div class="header-bottom-wrapper">
@@ -12,12 +12,13 @@
         mat-button
         class="link-header"
       >
-        {{ menuHeaderItem.label }}
+       
+        {{ menuHeaderItem.label | translate }}
       </button>
     </div>
     <div class="select-btn-cat-wrapper" *ngIf="isSmallScreen">
       <mat-form-field class="select-btn-cat">
-        <mat-label>Sélectionnez une catégorie</mat-label>
+        <mat-label>{{'app.selectionCat' | translate}}</mat-label>
         <select matNativeControl [disabled]="disableSelect.value">
           <option value="" selected></option>
           <option *ngFor="let menuHeaderItem of menuHeaderItems" value="volvo">

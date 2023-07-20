@@ -4,7 +4,9 @@ header {
   min-height: 12rem;
   padding-bottom: 2rem;
   .header-top {
-    margin-block: 3rem;
+    position: relative;
+    z-index: 2;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +17,23 @@ header {
       font-size: 22px;
       font-weight: 400;
       text-transform: uppercase;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      filter: blur(6px);
+      opacity: 0.36;
+      background: url("../../../../assets/images/bg-header.png");
+      background-size: 100%;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      // background-color: red;
+      z-index: -1;
     }
   }
   .header-bottom {

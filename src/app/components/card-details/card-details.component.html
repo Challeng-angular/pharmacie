@@ -1,64 +1,78 @@
-<div id="container-card">
-  <div id="background-content"></div>
-  <mat-card id="card-generic">
-    <mat-card-header appCard id="card-header">
-      <mat-card-title-group>
-        <mat-card-title></mat-card-title>
-        <mat-card-subtitle></mat-card-subtitle>
-        <div id="miniature-container">
-          <div
-            class="miniature-card"
-            *ngFor="let imageUrl of product.imagesUrl; let i = index"
-          >
-            <img mat-card-sm-image [src]="imageUrl" alt="image.product" />
-          </div>
-        </div>
-        <img
-          id="img-card"
-          mat-card-sm-image
-          [src]="product.imagesUrl[0]"
-          alt="image.product"
-        />
-      </mat-card-title-group>
-    </mat-card-header>
-    <mat-card-content id="card-content">
-      <div id="card-description">
-        <h3 id="product-name">{{ product.name }}</h3>
-        <div>{{ "app.product.description" | translate  }}</div>
+<div class="card-container">
+  <div class="card-product-details">
+    <div class="discount-badge" *ngIf="product.isDiscount">
+      -{{ product.discountPercentage }}%
+    </div>
+    <div class="card-thumbnail-pictures-wrapper">
+      <div
+        [class]="
+          i === 0 ? 'card-thumbnail-picture active' : 'card-thumbnail-picture'
+        "
+        *ngFor="let imageUrl of product.imagesUrl; let i = index"
+      >
+        <img [src]="imageUrl" alt="image du produit" />
       </div>
-      <div class="rating-stars">
-        <ng-container *ngFor="let star of [1, 2, 3, 4, 5]" class="rating-stars">
-          <mat-icon
-            id="star-icon"
-            [ngClass]="{ active: star <= product.rating }"
-            [style.color]="
-              star <= product.rating ? 'rgba(255, 179, 0, 0.749)' : ''
-            "
-            >star</mat-icon
-          >
-        </ng-container>
-      </div>
-      <div id="price" [class.discounted]="product.isDiscount">
-        <span id="discount-badge" *ngIf="product.isDiscount"
-          >-{{ product.discountPercentage }}%</span
-        >
-        <p *ngIf="product.isDiscount" class="line">
-          <del>{{ product.price }}€&nbsp;</del>
-        </p>
-        <p id="price-reduct" *ngIf="product.isDiscount">
-          &nbsp;{{ calculateDiscountedPrice(product) }}€
-        </p>
-        <p *ngIf="!product.isDiscount">{{ product.price }}€</p>
+    </div>
+    <div class="card-main-picture active">
+      <img class="img-card" [src]="product.imagesUrl[0]" alt="image.product" />
+    </div>
+    <div class="card-content">
+      <h3 class="product-title">{{ product.name }}</h3>
+      <p class="product-description">{{ product.description }}</p>
+      <div class="product-rating">
+        <mat-icon
+          class="star-icon"
+          *ngFor="let star of [1, 2, 3, 4, 5]"
+          [ngClass]="{ active: star <= product.rating }"
+          [style.color]="
+            star <= product.rating ? 'rgba(255, 179, 0, 0.749)' : ''
+          "
+          >star
+        </mat-icon>
       </div>
 
-      <button
-        id="button-pre"
-        mat-raised-button
-        color="primary"
-        (click)="goToProductsList()"
-      >
-        Retour
-      </button>
-    </mat-card-content>
-  </mat-card>
+      <div class="price-wrapper" [class.discounted]="product.isDiscount">
+        <p *ngIf="product.isDiscount" class="line">
+          <del>{{ product.price | currency : " " : "symbol" : "1.2-2" }}€</del
+          >&nbsp;
+        </p>
+        <p class="price-reduct" *ngIf="product.isDiscount">
+          &nbsp;{{
+            calculateDiscountedPrice(product)
+              | currency : " " : "symbol" : "1.2-2"
+          }}€
+        </p>
+        <p class="price-no-reduct" *ngIf="!product.isDiscount">
+          {{ product.price | currency : " " : "symbol" : "1.2-2" }}€
+        </p>
+      </div>
+      <div class="btns-wrapper">
+        <button>
+          <img
+            src="./assets/images/add-basket-product-icon.svg"
+            alt="icone ajouter au panier le produit"
+          />
+        </button>
+        <button>
+          <img
+            src="./assets/images/add-favorite-product-icon.svg"
+            alt="icone mettre en favoris le produit"
+          />
+        </button>
+        <button>
+          <img
+            src="./assets/images/remove-basket-product-icon.svg"
+            alt="icone enlever du panier le produit"
+          />
+        </button>
+        <button (click)="goToProductsList()">
+          <img
+            src="./assets/images/return-icon.svg"
+            alt="icone enlever du panier le produit"
+            class="return-icon"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
 </div>

@@ -13,7 +13,7 @@ import { ServicesComponent } from './components/pages/services/services.componen
 import { OverviewOrderComponent } from './components/pages/overview-order/overview-order.component';
 
 const routes: Routes = [
-  { path: 'form', component: ContactFormComponent},
+  { path: 'form', component: ContactFormComponent },
   { path: 'accueil', component: HomeComponent },
   { path: 'produits', component: ListProductsComponent },
   { path: 'produit/:id', component: DetailProductComponent },
@@ -28,7 +28,14 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled',
+      anchorScrolling: 'enabled',
+      onSameUrlNavigation: 'reload',
+      enableTracing: false,
+    }),
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

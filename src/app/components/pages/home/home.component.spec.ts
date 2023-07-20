@@ -11,7 +11,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
-
+import { LocationComponent } from '../../location/location.component';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -25,13 +25,14 @@ describe('HomeComponent', () => {
         BlocPresentationComponent,
         NewslettersComponent,
         CardComponent,
+        LocationComponent,
       ],
       imports: [
         MatInputModule,
         MatFormFieldModule,
         FormsModule,
         BrowserAnimationsModule,
-        MatCardModule
+        MatCardModule,
       ],
     });
     fixture = TestBed.createComponent(HomeComponent);

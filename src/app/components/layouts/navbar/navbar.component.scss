@@ -41,7 +41,9 @@
   }
 }
 .navbar {
-  background-color: #124559;
+  position: relative;
+  z-index: 10;
+  background-color: #124559ee;
   min-height: 70px;
   border-bottom: 4px solid #aec3b0;
   padding-left: 2rem;

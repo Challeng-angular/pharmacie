@@ -31,12 +31,13 @@ a {
 html,
 body {
   min-height: 100%;
+  scroll-behavior: smooth;
 }
 body {
   position: relative;
   margin: 0;
   font-family: inter, Roboto, wallpoet, sans-serif;
-  color: #4A5355;
+  color: #4a5355;
   background: #fafcf4;
 }
 ul {

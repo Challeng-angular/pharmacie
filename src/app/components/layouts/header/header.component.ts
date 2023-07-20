@@ -42,7 +42,6 @@ export class HeaderComponent {
   }
 
   handleClick(frag: string) {
-    console.log(frag);
     this.router.navigateByUrl('produits#' + frag);
   }
 }

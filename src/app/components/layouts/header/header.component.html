@@ -11,6 +11,7 @@
         *ngFor="let menuHeaderItem of menuHeaderItems"
         mat-button
         class="link-header"
+        (click)="handleClick(menuHeaderItem.fragment)"
       >
         {{ menuHeaderItem.label }}
       </button>
@@ -18,9 +19,17 @@
     <div class="select-btn-cat-wrapper" *ngIf="isSmallScreen">
       <mat-form-field class="select-btn-cat">
         <mat-label>Sélectionnez une catégorie</mat-label>
-        <select matNativeControl [disabled]="disableSelect.value">
+        <select
+          matNativeControl
+          [disabled]="disableSelect.value"
+          #categories
+          (change)="handleClick(categories.value)"
+        >
           <option value="" selected></option>
-          <option *ngFor="let menuHeaderItem of menuHeaderItems" value="volvo">
+          <option
+            *ngFor="let menuHeaderItem of menuHeaderItems"
+            [value]="menuHeaderItem.fragment"
+          >
             {{ menuHeaderItem.label }}
           </option>
         </select>

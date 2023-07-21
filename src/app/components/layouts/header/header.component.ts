@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
   menuHeaderItems: any[] = [
@@ -33,10 +33,10 @@ export class HeaderComponent {
       .observe([Breakpoints.Small, Breakpoints.XSmall])
       .subscribe((result) => {
         this.isSmallScreen = result.matches;
-        
+
       });
-     
-    
+
+
   }
 
   ngOnDestroy() {

@@ -13,7 +13,7 @@
       class="link-header"
       (click)="handleClick(menuHeaderItem.fragment)"
     >
-      {{ menuHeaderItem.label }}
+      {{ menuHeaderItem.label | translate }}
     </button>
     </div>
     <div class="select-btn-cat-wrapper" *ngIf="isSmallScreen">

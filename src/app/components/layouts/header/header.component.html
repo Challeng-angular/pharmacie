@@ -8,13 +8,13 @@
   <div class="header-bottom">
     <div class="header-bottom-wrapper">
       <button
-        *ngFor="let menuHeaderItem of menuHeaderItems"
-        mat-button
-        class="link-header"
-      >
-       
-        {{ menuHeaderItem.label | translate }}
-      </button>
+      *ngFor="let menuHeaderItem of menuHeaderItems"
+      mat-button
+      class="link-header"
+      (click)="handleClick(menuHeaderItem.fragment)"
+    >
+      {{ menuHeaderItem.label }}
+    </button>
     </div>
     <div class="select-btn-cat-wrapper" *ngIf="isSmallScreen">
       <mat-form-field class="select-btn-cat">

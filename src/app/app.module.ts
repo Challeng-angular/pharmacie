@@ -1,4 +1,3 @@
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -28,7 +27,10 @@ import { OverviewOrderComponent } from './components/pages/overview-order/overvi
 import { HeaderComponent } from './components/layouts/header/header.component';
 import { DetailProductComponent } from './components/pages/detail-product/detail-product.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { LocationComponent } from './components/location/location.component';
+
 
 
 @NgModule({
@@ -53,7 +55,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     ServicesComponent,
     OverviewOrderComponent,
     HeaderComponent,
-    DetailProductComponent
+    DetailProductComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,

@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class TranslateGlobalService {
-
+  
 
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('fr'); 

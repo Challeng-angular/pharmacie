@@ -27,8 +27,8 @@ export class NavbarComponent {
     private router: Router,
     private translate: TranslateService
 
-  ) {  translate.setDefaultLang('fr'); 
-} 
+  ) {  translate.setDefaultLang('fr');
+}
 
   ngOnInit() {
     this.breakpointSubscription = this.breakpointObserver

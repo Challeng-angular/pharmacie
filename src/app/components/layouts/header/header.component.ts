@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { FormControl } from '@angular/forms';
+import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -17,22 +18,25 @@ export class HeaderComponent {
     { label: 'Phytothérapie / Homéopathie', fragment: 'section-4' },
     { label: 'Spagyrie', fragment: 'section-5' },
   ];
-
+  translatedMenuItems: any[];
   disableSelect = new FormControl(false);
   private breakpointSubscription: Subscription;
   public isSmallScreen = false;
 
-  constructor(
-    private breakpointObserver: BreakpointObserver,
+  constructor(private breakpointObserver: BreakpointObserver,
+              private translate: TranslateService,
     private router: Router
   ) {}
 
-  ngOnInit() {
+  ngOnInit():void {
     this.breakpointSubscription = this.breakpointObserver
       .observe([Breakpoints.Small, Breakpoints.XSmall])
       .subscribe((result) => {
         this.isSmallScreen = result.matches;
+
       });
+
+
   }
 
   ngOnDestroy() {

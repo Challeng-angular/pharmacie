@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 import { CardDetailsComponent } from './card-details.component';
 import { ProductsService } from 'src/app/services/products.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 describe('CardDetailsComponent', () => {
   let component: CardDetailsComponent;
@@ -10,6 +11,7 @@ describe('CardDetailsComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
+      imports:[TranslateModule.forRoot() ],
       declarations: [CardDetailsComponent],
       providers: [
         {

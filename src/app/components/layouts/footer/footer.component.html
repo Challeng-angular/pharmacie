@@ -30,7 +30,7 @@
       </li>
     </ul>
     <ul class="footer-language">
-      <p class="footer-subtitle">LANGUES</p>
+      <p class="footer-subtitle">{{'app.langues' | translate}}</p>
       <div class="flags-wrapper">
         <img src="./assets/images/flag-fr.svg" alt="drapeau FR" />
         <img src="./assets/images/flag-de.svg" alt="drapeau DE" />
@@ -39,7 +39,7 @@
     </ul>
   </div>
   <div class="footer-mid">
-    <div class="footer-subtitle">NOUS REJOINDRE</div>
+    <div class="footer-subtitle">{{'app.rejoindre' | translate }}</div>
     <div class="social-links">
       <a
         href="https://www.twitter.com"
@@ -80,11 +80,11 @@
     <p class="footer-bottom__cgv">
       ©Pharmacie Dupont - 2023 -
       <a [routerLink]="['/conditions-generales-vente']"
-        >Conditions générales de vente</a
+        >{{"app.condvente" | translate }} </a
       >
       -
       <a [routerLink]="['/conditions-generales-utilisation']"
-        >Conditions générales d'utilisation</a
+        >{{"app.condutilisation" | translate }}Conditions générales d'utilisation</a
       >
     </p>
   </div>

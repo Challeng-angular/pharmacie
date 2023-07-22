@@ -18,29 +18,29 @@ describe('ContactFormComponent', () => {
   let component: ContactFormComponent;
   let fixture: ComponentFixture<ContactFormComponent>;
 
-  // beforeEach(waitForAsync(() => {
-    // TestBed.configureTestingModule({
-      // declarations: [ContactFormComponent],
-      // imports: [
-        // TranslateModule.forRoot(),
-        // NoopAnimationsModule,
-        // ReactiveFormsModule,
-        // MatButtonModule,
-        // MatCardModule,
-        // MatInputModule,
-        // MatRadioModule,
-        // MatSelectModule,
-        // MatIconModule,
-        // BrowserAnimationsModule,
-      // ],
-    // }).compileComponents();
-  // }));
-// 
-  // beforeEach(() => {
-    // fixture = TestBed.createComponent(ContactFormComponent);
-    // component = fixture.componentInstance;
-    // fixture.detectChanges();
-  // });
+  beforeEach(waitForAsync(() => {
+    TestBed.configureTestingModule({
+      declarations: [ContactFormComponent],
+      imports: [
+        TranslateModule.forRoot(),
+        NoopAnimationsModule,
+        ReactiveFormsModule,
+        MatButtonModule,
+        MatCardModule,
+        MatInputModule,
+        MatRadioModule,
+        MatSelectModule,
+        MatIconModule,
+        BrowserAnimationsModule,
+      ],
+    }).compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(ContactFormComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
 
   it('should compile', () => {
     expect(component).toBeTruthy();

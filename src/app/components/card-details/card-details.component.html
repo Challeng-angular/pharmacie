@@ -6,15 +6,44 @@
     <div class="card-thumbnail-pictures-wrapper">
       <div
         [class]="
-          i === 0 ? 'card-thumbnail-picture active' : 'card-thumbnail-picture'
+          i === indexImgSelected
+            ? 'card-thumbnail-picture active'
+            : 'card-thumbnail-picture'
         "
         *ngFor="let imageUrl of product.imagesUrl; let i = index"
       >
-        <img [src]="imageUrl" alt="image du produit" />
+        <img
+          [src]="imageUrl"
+          alt="image du produit"
+          (click)="handleClickImg(i)"
+        />
       </div>
     </div>
-    <div class="card-main-picture active">
-      <img class="img-card" [src]="product.imagesUrl[0]" alt="image.product" />
+    <div [ngSwitch]="indexImgSelected" class="card-main-picture active">
+      <img
+        *ngSwitchCase="0"
+        class="img-card"
+        [src]="product.imagesUrl[0]"
+        alt="image.product"
+      />
+      <img
+        *ngSwitchCase="1"
+        class="img-card"
+        [src]="product.imagesUrl[1]"
+        alt="image.product"
+      />
+      <img
+        *ngSwitchCase="2"
+        class="img-card"
+        [src]="product.imagesUrl[2]"
+        alt="image.product"
+      />
+      <img
+        *ngSwitchDefault
+        class="img-card"
+        [src]="product.imagesUrl[0]"
+        alt="image.product"
+      />
     </div>
     <div class="card-content">
       <h3 class="product-title">{{ product.name }}</h3>

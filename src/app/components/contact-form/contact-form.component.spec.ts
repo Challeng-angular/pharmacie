@@ -12,7 +12,11 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 
 import { ContactFormComponent } from './contact-form.component';
-import { TranslateModule } from '@ngx-translate/core';
+import {
+  TranslateFakeLoader,
+  TranslateLoader,
+  TranslateModule,
+} from '@ngx-translate/core';
 
 describe('ContactFormComponent', () => {
   let component: ContactFormComponent;
@@ -22,7 +26,12 @@ describe('ContactFormComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ContactFormComponent],
       imports: [
-        TranslateModule.forRoot(),
+        TranslateModule.forRoot({
+          loader: {
+            provide: TranslateLoader,
+            useClass: TranslateFakeLoader,
+          },
+        }),
         NoopAnimationsModule,
         ReactiveFormsModule,
         MatButtonModule,

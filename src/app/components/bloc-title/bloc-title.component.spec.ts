@@ -1,6 +1,10 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { BlocTitleComponent } from './bloc-title.component';
-import { TranslateModule } from '@ngx-translate/core';
+import {
+  TranslateFakeLoader,
+  TranslateLoader,
+  TranslateModule,
+} from '@ngx-translate/core';
 
 describe('BlocTitleComponent', () => {
   let component: BlocTitleComponent;
@@ -8,7 +12,14 @@ describe('BlocTitleComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports:[TranslateModule.forRoot() ],
+      imports: [
+        TranslateModule.forRoot({
+          loader: {
+            provide: TranslateLoader,
+            useClass: TranslateFakeLoader,
+          },
+        }),
+      ],
       declarations: [BlocTitleComponent],
     });
     fixture = TestBed.createComponent(BlocTitleComponent);

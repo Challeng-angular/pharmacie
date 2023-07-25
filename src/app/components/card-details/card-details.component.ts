@@ -15,6 +15,7 @@ export class CardDetailsComponent implements OnInit {
   discountedPrices: number[];
   thumbnailPicts: NodeListOf<HTMLImageElement>;
   listSrcImg: string[];
+  indexImgSelected: number = 0;
   constructor(
     private router: Router,
     private productsService: ProductsService,
@@ -38,5 +39,8 @@ export class CardDetailsComponent implements OnInit {
   }
   goToProductsList(): void {
     this.router.navigate(['/produits']);
+  }
+  handleClickImg(index: number): void {
+    this.indexImgSelected = index;
   }
 }

@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 import { ProductsService } from 'src/app/services/products.service';
-import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-bloc-title',
@@ -11,6 +10,4 @@ import { TranslateService } from '@ngx-translate/core';
 export class BlocTitleComponent {
   @Input() title: string;
   @Input() isDisplayFirstPict: boolean = false;
-
-
 }

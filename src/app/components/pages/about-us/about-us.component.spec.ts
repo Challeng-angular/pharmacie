@@ -4,6 +4,11 @@ import { AboutUsComponent } from './about-us.component';
 import { BlocTitleComponent } from '../../bloc-title/bloc-title.component';
 import { MatCardModule } from '@angular/material/card';
 import { NavbarComponent } from '../../layouts/navbar/navbar.component';
+import {
+  TranslateFakeLoader,
+  TranslateLoader,
+  TranslateModule,
+} from '@ngx-translate/core';
 
 describe('AboutUsComponent', () => {
   let component: AboutUsComponent;
@@ -11,14 +16,23 @@ describe('AboutUsComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports:[MatCardModule],
-      declarations: [AboutUsComponent, BlocTitleComponent, NavbarComponent]
+      imports: [
+        MatCardModule,
+        TranslateModule.forRoot({
+          loader: {
+            provide: TranslateLoader,
+            useClass: TranslateFakeLoader,
+          },
+        }),
+      ],
+      declarations: [AboutUsComponent, BlocTitleComponent, NavbarComponent],
     });
-   
+    fixture = TestBed.createComponent(AboutUsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
   });
 
   it('should create', () => {
-    let a = true;
-    expect(a).toBe(true);
+    expect(component).toBeTruthy();
   });
 });

@@ -31,8 +31,6 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { LocationComponent } from './components/location/location.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -56,7 +54,7 @@ import { LocationComponent } from './components/location/location.component';
     OverviewOrderComponent,
     HeaderComponent,
     DetailProductComponent,
-    LocationComponent
+    LocationComponent,
   ],
   imports: [
     BrowserModule,
@@ -65,13 +63,12 @@ import { LocationComponent } from './components/location/location.component';
     MaterialModule,
     HttpClientModule,
     TranslateModule.forRoot({
-    loader: {
-      provide: TranslateLoader,
-      useFactory: HttpLoaderFactory,
-      deps: [HttpClient]
-    }
-  })
-
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+    }),
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent],

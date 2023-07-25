@@ -4,6 +4,11 @@ import { ListProductsComponent } from './list-products.component';
 import { BlocTitleComponent } from '../../bloc-title/bloc-title.component';
 import { CardComponent } from '../../card/card.component';
 import { MatCardModule } from '@angular/material/card';
+import {
+  TranslateFakeLoader,
+  TranslateLoader,
+  TranslateModule,
+} from '@ngx-translate/core';
 
 describe('ListProductsComponent', () => {
   let component: ListProductsComponent;
@@ -12,13 +17,22 @@ describe('ListProductsComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [ListProductsComponent, CardComponent, BlocTitleComponent],
-      imports: [MatCardModule],
+      imports: [
+        MatCardModule,
+        TranslateModule.forRoot({
+          loader: {
+            provide: TranslateLoader,
+            useClass: TranslateFakeLoader,
+          },
+        }),
+      ],
     });
-    
+    fixture = TestBed.createComponent(ListProductsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
   });
 
   it('should create', () => {
-    let a = true;
-    expect(a).toBe(true);
+    expect(component).toBeTruthy();
   });
 });
